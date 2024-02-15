@@ -23,7 +23,6 @@ listDate.forEach(function(element){
 
     list += `<div class="sildenum">
                 <a href="#"><img src="${element.img}" alt=""></a>
-
               </div>`
               
 });

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{background-color: #141416;}
 
 /*
@@ -50,8 +49,7 @@ header{
     
     
   }
-  .sideM{ display: none;}
-  
+  .sideM{ display: none;} 
 }
 
 /*
@@ -67,9 +65,8 @@ main {
             a {
                 img {width: 100%; height: 100%;}
             }
+          }
         }
-        }
-
       }
       .btns {
        
@@ -77,8 +74,7 @@ main {
           left:-113px; top:50%; transform: translateY(-50%);  z-index: 99; opacity: 0.6;
         &:hover {opacity: 1; }
         }
-        
-          
+           
         .nextBtn{position: absolute; background: url(../images/rightBtn.png)no-repeat; width: 120px; height: 120px; 
           right:-150px; top:50%; transform: translateY(-50%); z-index: 99; opacity: 0.6;
         &:hover {opacity: 1; }}     
@@ -89,16 +85,13 @@ main {
             }
         }
         li{ 
-            a {display: block; width: 250px;height: 2px;  
-                background-color: #6e6e6e; margin: 5px  3px; transition: all 0.5s;
-                  
-              }  
-              &:hover a {background-color: #fff;}
-              
+          a {display: block; width: 250px;height: 2px;  
+              background-color: #6e6e6e; margin: 5px  3px; transition: all 0.5s;
+                
+            }  
+          &:hover a {background-color: #fff;}    
         }  
       }
     }
   }
 }
-=======
->>>>>>> 43dcbebcfd811c8c53db646ea931ea4a901317c1
