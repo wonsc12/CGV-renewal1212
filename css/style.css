@@ -1,11 +1,18 @@
 body {
   background-color: #fff;
+  padding-top: 80px;
 }
 
 /*
 header
 */
 header {
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  box-sizing: border-box;
   background: #fff;
   padding: 13px 0;
   transition: height 0.5s;
@@ -32,7 +39,6 @@ header .container .logo .logoh1 a {
 header .container nav > ul {
   display: flex;
   justify-content: center;
-  gap: 79px;
 }
 header .container nav {
   width: 647px;
@@ -42,8 +48,10 @@ header .container nav > ul > li {
   line-height: 60px;
   position: relative;
 }
+header .container nav > ul > li > a {
+  padding: 0 30px;
+}
 header .container nav > ul > li > ul {
-  width: 100%;
   position: absolute;
 }
 header .container nav > ul > li > ul li {

@@ -1,9 +1,12 @@
-body{background-color: #fff;}
+body{background-color: #fff; padding-top: 80px; }
 
 /*
 header
 */
 header{
+  z-index: 10;
+  position: fixed; left: 0; right: 0; top:0;
+  box-sizing: border-box;
   background: #fff ;
   padding: 13px 0;
   transition:height 0.5s;
@@ -28,13 +31,14 @@ header{
     nav > ul {    
       display: flex; 
       justify-content: center;
-      gap: 79px;
+      
     }
     nav {
       width:647px; margin:0 auto; 
       >ul {
         >li{ line-height:60px; position: relative; 
-          > ul{width: 100%; position: absolute ; 
+          >a{ padding: 0 30px ;}
+          > ul{ position: absolute  ; 
               li{ white-space: nowrap; line-height: 50px;}
           }
         }
