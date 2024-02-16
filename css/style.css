@@ -68,6 +68,9 @@ header .sideM {
 /*
 main
 */
+main .mcontainer .section1 {
+  background-color: #141416;
+}
 main .mcontainer .section1 .silder {
   position: relative;
   width: 1490px;
