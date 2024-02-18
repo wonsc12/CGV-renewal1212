@@ -1,5 +1,6 @@
 const mainMenu = document.querySelectorAll('nav > ul > li');
 const header = document.querySelector('header');
+
 const initHeight = header.offsetHeight; // 헤더의 초기높이
 let tallestHeight = 0; // 높이끼리 비교 제일큰 높이를 찾고 그 높이기가 됨
 /*
@@ -25,5 +26,33 @@ for(let mm of mainMenu){
 	});
 	mm.addEventListener('mouseout',()=>{
 		header.style.height = `${initHeight}px`;
-	});	
+	});
+
+
+	window.addEventListener("scroll",function(){
+
+		let scTop = window.scrollY;
+		let Start = document.querySelector(".section1").offsetTop;
+	
+		if(scTop >= Start-0 ){
+				
+				header.classList.add("fixer");	
+				
+			 
+	
+				
+		}
+		
+		else{
+				
+				header.classList.remove("fixer");
+				
+				
+	
+		}
+	})		
 }
+
+
+
+

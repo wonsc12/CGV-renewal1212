@@ -7,70 +7,352 @@ body {
 header
 */
 header {
+  overflow: hidden;
   z-index: 10;
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
   box-sizing: border-box;
-  background: #fff;
-  padding: 13px 0;
+  padding: 10px 0;
   transition: height 0.5s;
-  overflow: hidden;
-  background: linear-gradient(white 80px, rgba(255, 255, 255, 0.5) 80px, rgba(255, 255, 255, 0.5));
+  background: linear-gradient(white 95px, rgb(255, 255, 255) 95px, rgb(255, 255, 255));
   height: 80px;
 }
-header > div {
-  display: flex;
-  justify-content: space-between;
-}
 header .container {
+  transition: 1s;
+  width: 1276px;
+  border-radius: 40px;
   background-color: #fff;
   margin: 0 auto;
-  width: 1276px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
 }
-header .container .logo .logoh1 a {
+header .container .center {
+  width: 1276px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container .center .logo {
+  margin-left: 20px;
+}
+header .container .center .logo .logoh1 a {
   background: url(../images/cgv\ logo.png) no-repeat center/cover;
   width: 120px;
   height: 54px;
   display: block;
   text-indent: -9999em;
 }
-header .container nav > ul {
+header .container .center nav > ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
-header .container nav {
-  width: 647px;
+header .container .center nav {
+  width: 800px;
   margin: 0 auto;
 }
-header .container nav > ul > li {
-  line-height: 60px;
+header .container .center nav > ul > li {
+  text-align: center;
+  width: 100%;
+  line-height: 50px;
+  position: relative;
+  font-weight: bold;
+}
+header .container .center nav > ul > li .menu {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
   position: relative;
 }
-header .container nav > ul > li > a {
-  padding: 0 30px;
-}
-header .container nav > ul > li > ul {
+header .container .center nav > ul > li .menu::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: black;
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25px;
+  width: 0%;
+  transition: all 0.5s;
 }
-header .container nav > ul > li > ul li {
+header .container .center nav > ul > li > ul {
+  position: absolute;
+  left: 50%;
+  top: 130%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+header .container .center nav > ul > li > ul > li {
   white-space: nowrap;
-  line-height: 50px;
+  line-height: 45 px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
 }
-header .container .three .login {
+header .container .center nav > ul > li > ul > li > a {
+  display: block;
+  width: 100%;
+  position: relative;
+  color: black;
+  border-radius: 10px;
+  font-weight: normal;
+}
+header .container .center nav > ul > li > ul > li > a:hover {
+  background-color: #141416;
+  color: #fff;
+}
+header .container .center nav > ul > li:hover .menu::after {
+  width: 100%;
+}
+header .container .center .three {
+  position: relative;
+  z-index: 50;
+  transition: 0.5s;
+}
+header .container .center .three .login {
   display: flex;
+  align-items: center;
+  margin-right: 20px;
 }
-header .container .three .login i {
+header .container .center .three .login i {
   line-height: 60px;
   margin-left: 23px;
 }
-header .container .three .login a {
+header .container .center .three .login a {
   line-height: 60px;
   margin-left: 4.5px;
 }
+header .container .center .three .login .searcgs {
+  background: url(../images/ico-search-white.png) no-repeat center/cover;
+  width: 18px;
+  height: 18px;
+  line-height: 60px;
+  margin-left: 23px;
+}
+header .container .center .three #myFoty {
+  margin-right: 30px;
+  position: absolute;
+  left: 42%;
+  z-index: 100;
+  opacity: 0;
+  transform: translateX(-50%);
+  top: 46px;
+  display: flex;
+  align-items: center;
+}
+header .container .center .three #myFoty .box4 {
+  width: 85px;
+  height: 38px;
+  border-radius: 4px;
+  border: 1px solid #adb5bd;
+}
+header .container .center .three #myFoty .box5 {
+  padding-left: 10px;
+  width: 240px;
+  height: 38px;
+  border-radius: 4px;
+  border: 1px solid #adb5bd;
+}
+header .container .center .three #myFoty #searchBtn {
+  width: 50px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #adb5bd;
+  border: none;
+}
+header .container .center .three.on2 .login .searcgs {
+  background: url(../images/btn-header-layer-close.png) no-repeat center/cover;
+  width: 18px;
+  height: 18px;
+}
+header .container .center .three.on2 #myFoty {
+  opacity: 1;
+}
+header .container .center .spanBtn {
+  position: absolute;
+  right: 234px;
+  top: 43px;
+  transform: translateY(-50%);
+  display: block;
+}
+header .container .center .spanBtn .line {
+  margin: 6px;
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: black;
+  transition: all 1s;
+}
+header .container .center .spanBtn.chg .top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(45deg);
+}
+header .container .center .spanBtn.chg .mid {
+  transform: translateX(10px);
+  opacity: 0;
+}
+header .container .center .spanBtn.chg .bot {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: rotate(-45deg);
+}
 header .sideM {
-  display: none;
+  width: 280px;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: -280px;
+  transition: all 1s;
+  z-index: 99;
+}
+header .sideM .lineBtn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+header .sideM .lineBtn .btn2 {
+  display: block;
+  position: absolute;
+  right: 50px;
+  top: 10%;
+  transform: translateY(-50%);
+}
+header .sideM .lineBtn .btn2 .line {
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: #141416;
+  transition: all 1s;
+}
+header .sideM .lineBtn .btn2 .top2 {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  transform: rotate(45deg);
+}
+header .sideM .lineBtn .btn2 .mid2 {
+  transform: translateX(10px);
+  opacity: 0;
+  margin: 5px 0;
+}
+header .sideM .lineBtn .btn2 .bot2 {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  transform: rotate(-45deg);
+}
+header .sideM .sidemenu {
+  margin-top: 225px;
+  margin-left: 20px;
+}
+header .sideM .sidemenu .mater {
+  display: block;
+}
+header .sideM .sidemenu .mater li {
+  line-height: 40px;
+  font-weight: bold;
+}
+header .sideM .sidemenu .mater li .mDepth2 {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+header .sideM .sidemenu .mater li .mDepth2 li a {
+  display: block;
+  line-height: 50px;
+  font-weight: lighter;
+  text-indent: 25px;
+  color: #141416;
+}
+header .sideM .sidemenu .three2 {
+  margin-top: 150px;
+}
+header .sideM .sidemenu .three2 #myFoty {
+  margin-right: 30px;
+  z-index: 100;
+  opacity: 1;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+header .sideM .sidemenu .three2 #myFoty .box4 {
+  width: 65px;
+  height: 38px;
+  border-radius: 4px;
+  border: 1px solid #adb5bd;
+}
+header .sideM .sidemenu .three2 #myFoty .box5 {
+  padding-left: 10px;
+  width: 150px;
+  height: 38px;
+  border-radius: 4px;
+  border: 1px solid #adb5bd;
+}
+header .sideM .sidemenu .three2 #myFoty #searchBtn {
+  width: 50px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #adb5bd;
+  border: none;
+  margin-left: 10px;
+}
+
+.sideM.move {
+  right: 0;
+}
+
+header.fixer {
+  position: fixed;
+  top: 0;
+  bottom: unset;
+  display: block;
+  z-index: 51;
+  background-color: #141416;
+}
+header.fixer .container {
+  width: 100%;
+  border-radius: 0;
+  background-color: #141416;
+}
+header.fixer .container .center {
+  width: 1272px;
+}
+header.fixer .container .center .logoh1 a {
+  background-image: url(../images/logoWhite.png);
+}
+header.fixer .container .center nav {
+  width: 800px;
+  margin: 0 auto;
+}
+header.fixer .container .center nav > ul > li .menu::after {
+  background-color: #fff;
+}
+header.fixer .container .center nav > ul > li > a {
+  color: #fff;
+}
+header.fixer .container .center nav > ul > li > ul:hover .menu::after {
+  background: #fff;
+}
+header.fixer .container .center .three .login {
+  color: #fff;
+}
+header.fixer .container .center .three .login i {
+  color: #fff;
+}
+header.fixer .container .center .three .login a {
+  color: #fff;
+}
+header.fixer .container .center .three .login .search {
+  color: #fff;
+}
+header.fixer .container .center .spanBtn span {
+  background-color: #fff;
 }
 
 /*
@@ -85,11 +367,11 @@ main .mcontainer .section1 .silder {
   height: 774px;
   margin: 0 auto;
 }
-main .mcontainer .section1 .silder .view {
+main .mcontainer .section1 .silder .viewqer {
   display: flex;
   width: 100%;
 }
-main .mcontainer .section1 .silder .view .sildenum {
+main .mcontainer .section1 .silder .viewqer .sildenum {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -97,11 +379,11 @@ main .mcontainer .section1 .silder .view .sildenum {
   z-index: 2;
   transition: all 1s;
 }
-main .mcontainer .section1 .silder .view .sildenum:nth-child(1) {
+main .mcontainer .section1 .silder .viewqer .sildenum:nth-child(1) {
   opacity: 1;
   z-index: 3;
 }
-main .mcontainer .section1 .silder .view .sildenum a img {
+main .mcontainer .section1 .silder .viewqer .sildenum a img {
   width: 100%;
   height: 100%;
 }
@@ -113,7 +395,7 @@ main .mcontainer .section1 .btns .prevBtn {
   left: -113px;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 99;
+  z-index: 50;
   opacity: 0.6;
 }
 main .mcontainer .section1 .btns .prevBtn:hover {
@@ -124,10 +406,10 @@ main .mcontainer .section1 .btns .nextBtn {
   background: url(../images/rightBtn.png) no-repeat;
   width: 120px;
   height: 120px;
-  right: -150px;
+  right: -180px;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 99;
+  z-index: 50;
   opacity: 0.6;
 }
 main .mcontainer .section1 .btns .nextBtn:hover {
@@ -157,4 +439,192 @@ main .mcontainer .section1 .circleBtn li a {
 }
 main .mcontainer .section1 .circleBtn li:hover a {
   background-color: #fff;
+}
+main .mcontainer .section2 .center2 {
+  width: 1106px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+main .mcontainer .section2 .center2 .boxoffice {
+  width: 50%;
+  margin: 0px auto;
+}
+main .mcontainer .section2 .center2 .boxoffice .image1 {
+  margin: 50px auto;
+  width: 385px;
+  height: 367px;
+  background-image: url(../images/small1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: 173px;
+  display: flex;
+  justify-content: center;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view {
+  width: 100%;
+  height: 100%;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s;
+  z-index: 2;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view > div:nth-child(1) {
+  opacity: 1;
+  z-index: 3;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 {
+  display: flex;
+  justify-content: center;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 > div {
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 125px;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 > div a img {
+  width: 100%;
+  height: 173px;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .btns2 > div {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .btns2 .prevBtn2 {
+  left: -50px;
+  font-size: 30px;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .btns2 .prevBtn2 i {
+  color: #000;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .btns2 .nextBtn2 {
+  right: -50px;
+  font-size: 30px;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .btns2 .nextBtn2 i {
+  color: #000;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .circleBtn2 {
+  position: absolute;
+  left: 50%;
+  bottom: -80px;
+  transform: translateX(-50%);
+  z-index: 4;
+  display: flex;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .circleBtn2 li a {
+  display: block;
+  width: 20px;
+  background-color: #000;
+  border-radius: 50%;
+  height: 20px;
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .circleBtn2 li.on a {
+  background-color: #dc3545;
+  width: 50px;
+  border-radius: 20px;
+}
+main .mcontainer .section2 .boxoffice2 {
+  width: 50%;
+  margin: 0px auto;
+}
+main .mcontainer .section2 .boxoffice2 .image12 {
+  margin: 50px auto;
+  width: 385px;
+  height: 367px;
+  background-image: url(../images/small1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: 173px;
+  display: flex;
+  justify-content: center;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .view2 {
+  width: 100%;
+  height: 100%;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .view2 > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s;
+  z-index: 2;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .view2 > div:nth-child(1) {
+  opacity: 1;
+  z-index: 3;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .view2 .pto4 {
+  display: flex;
+  justify-content: center;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .view2 .pto4 > div {
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 125px;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .view2 .pto4 > div a img {
+  width: 100%;
+  height: 173px;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .btns22 div {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .btns22 .prevBtn22 {
+  left: -100px;
+  font-size: 30px;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .btns22 .prevBtn22 i {
+  color: #000;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .btns22 .nextBtn22 {
+  right: -100px;
+  font-size: 30px;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .btns22 .nextBtn22 i {
+  color: #000;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .circleBtn22 {
+  position: absolute;
+  left: 50%;
+  bottom: -80px;
+  transform: translateX(-50%);
+  z-index: 4;
+  display: flex;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .circleBtn22 li a {
+  display: block;
+  width: 20px;
+  background-color: #000;
+  border-radius: 50%;
+  height: 20px;
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+main .mcontainer .section2 .boxoffice2 .smallslider2 .circleBtn22 li.on a {
+  background-color: #dc3545;
+  width: 50px;
+  border-radius: 20px;
 }

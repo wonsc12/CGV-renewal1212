@@ -1,4 +1,4 @@
-let listDate = [
+let listDateview = [
   { 
     img:"./images/BreadBarbershop_1920774.jpg", 
   },
@@ -16,18 +16,18 @@ let listDate = [
 
 
 
-let view= document.querySelector(".view");
-let list = "";
+let viewqer = document.querySelector(".viewqer");
+let listview = "";
 
-listDate.forEach(function(element){
+listDateview.forEach((element)=>{
 
-    list += `<div class="sildenum">
-                <a href="#"><img src="${element.img}" alt=""></a>
-              </div>`
+    listview += `<div class="sildenum">
+                    <a href="#"><img src="${element.img}" alt=""></a>
+                </div>`
               
 });
 
-view.innerHTML = list;
+viewqer.innerHTML = listview;
 
 
 
@@ -40,7 +40,7 @@ view.innerHTML = list;
  const nextBtn = document.querySelector(".nextBtn");
 
  // 슬라이드 화면들 선택
- const silderView = document.querySelectorAll(".view > .sildenum");
+ const silderView = document.querySelectorAll(".viewqer > .sildenum");
 
  // 하단 동그라미 버튼들
 
