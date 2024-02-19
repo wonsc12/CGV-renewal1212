@@ -309,10 +309,13 @@ main {
           }
           
         .boxoffice{width: 50%; margin: 0px auto;
-          .image1{ margin: 50px auto; width: 385px; height: 367px; background-image:url(../images/small1.jpg);background-size: cover; background-repeat: no-repeat; 
+          .dtt {width: 385px; height: 367px;  margin: 50px auto; 
+            .image1{width:100%; height: 100%; background-image:url(../images/small1.jpg);background-size: cover; background-repeat: no-repeat; 
             
            
+            }
           }
+          
           .smallslider {position: relative;margin: 0 auto;width: 80%; height: 173px; display: flex; justify-content: center;
               
             .view{width: 100%; height: 100%; 
@@ -396,3 +399,18 @@ main {
 }
 
 
+/*
+ footer
+
+*/
+footer {
+  nav {
+    ul { display: flex; 
+      li { line-height: 27px; display: flex; align-items: center;
+        span {  line-height: 27px; }
+        a { line-height: 27px;}
+
+      }
+    }
+  }
+}
