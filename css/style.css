@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #f9f9f9;
   padding-top: 80px;
 }
 
@@ -23,7 +23,7 @@ header .container {
   transition: 1s;
   width: 1276px;
   border-radius: 40px;
-  background-color: #fff;
+  background-color: #f9f9f9;
   margin: 0 auto;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
 }
@@ -101,7 +101,7 @@ header .container .center nav > ul > li > ul > li > a {
 }
 header .container .center nav > ul > li > ul > li > a:hover {
   background-color: #141416;
-  color: #fff;
+  color: #f9f9f9;
 }
 header .container .center nav > ul > li:hover .menu::after {
   width: 100%;
@@ -204,7 +204,7 @@ header .container .center .spanBtn.chg .bot {
 header .sideM {
   width: 280px;
   height: 100vh;
-  background-color: #fff;
+  background-color: #f9f9f9;
   position: fixed;
   top: 0;
   right: -280px;
@@ -331,28 +331,28 @@ header.fixer .container .center nav {
   margin: 0 auto;
 }
 header.fixer .container .center nav > ul > li .menu::after {
-  background-color: #fff;
+  background-color: #f9f9f9;
 }
 header.fixer .container .center nav > ul > li > a {
-  color: #fff;
+  color: #f9f9f9;
 }
 header.fixer .container .center nav > ul > li > ul:hover .menu::after {
-  background: #fff;
+  background: #f9f9f9;
 }
 header.fixer .container .center .three .login {
-  color: #fff;
+  color: #f9f9f9;
 }
 header.fixer .container .center .three .login i {
-  color: #fff;
+  color: #f9f9f9;
 }
 header.fixer .container .center .three .login a {
-  color: #fff;
+  color: #f9f9f9;
 }
 header.fixer .container .center .three .login .search {
-  color: #fff;
+  color: #f9f9f9;
 }
 header.fixer .container .center .spanBtn span {
-  background-color: #fff;
+  background-color: #f9f9f9;
 }
 
 /*
@@ -425,7 +425,7 @@ main .mcontainer .section1 .circleBtn {
   z-index: 10;
 }
 main .mcontainer .section1 .circleBtn .on a {
-  background-color: #fff;
+  background-color: #f9f9f9;
   width: 250px;
   height: 2;
 }
@@ -438,7 +438,10 @@ main .mcontainer .section1 .circleBtn li a {
   transition: all 0.5s;
 }
 main .mcontainer .section1 .circleBtn li:hover a {
-  background-color: #fff;
+  background-color: #f9f9f9;
+}
+main .mcontainer .section2 {
+  display: none;
 }
 main .mcontainer .section2 .center2 {
   width: 1106px;
@@ -636,7 +639,194 @@ main .mcontainer .section2 .boxoffice2 .smallslider2 .circleBtn22 li.on a {
   width: 50px;
   border-radius: 20px;
 }
-
+main .mcontainer .section3event {
+  background-color: #141416;
+}
+main .mcontainer .section3event .titletext {
+  width: 1106px;
+  display: flex;
+  justify-content: space-between;
+}
+main .mcontainer .section3event .titletext h2 {
+  color: #f9f9f9;
+}
+main .mcontainer .section3event .titletext h3 {
+  color: #f9f9f9;
+}
+main .mcontainer .section3event .center {
+  width: 1106px;
+  margin: 0 auto;
+  text-align: center;
+}
+main .mcontainer .section3event .center .Eventad > ul {
+  display: flex;
+  justify-content: center;
+}
+main .mcontainer .section3event .center .Eventad > ul li::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  width: 2px;
+  height: 15px;
+  background-color: #eb8102;
+  margin: 0 31px;
+}
+main .mcontainer .section3event .center .Eventad > ul li a {
+  color: #f9f9f9;
+}
+main .mcontainer .section3event .center .Eventad > ul li:last-child::after {
+  display: none;
+}
+main .mcontainer .section3event .center .Eventad > ul li.on a {
+  color: red;
+}
+main .mcontainer .section3event .center .Eventad .box12 {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .mcontainer .section3event .center .Eventad .box12 .all {
+  width: 31.333333%;
+  margin: 1%;
+  position: relative;
+}
+main .mcontainer .section3event .center .Eventad .box12 .all .bg {
+  width: 98%;
+  height: 98%;
+  opacity: 0;
+  background-color: #dacf45;
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  transition: all 0.5s;
+  text-align: center;
+}
+main .mcontainer .section3event .center .Eventad .box12 .all .bg span {
+  font-size: 100px;
+  color: #f9f9f9;
+  margin-top: 10%;
+}
+main .mcontainer .section3event .center .Eventad .box12 .all .bg h2 {
+  color: #f9f9f9;
+}
+main .mcontainer .section3event .center .Eventad .box12 .all .bg p {
+  color: #f9f9f9;
+}
+main .mcontainer .section3event .center .Eventad .box12 .all img {
+  width: 100%;
+  height: 100%;
+}
+main .mcontainer .section3event .center .Eventad .box12 .small {
+  height: 91px;
+}
+main .mcontainer .section3event .center .Eventad .box12 .big {
+  height: 208px;
+}
+main .mcontainer .section3event .center .Eventad .box12 .wide {
+  width: 64.666666%;
+  height: 202px;
+}
+main .mcontainer .section4 {
+  background-color: #141416;
+}
+main .mcontainer .section4 .center {
+  width: 1106px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+main .mcontainer .section4 .center .box5 {
+  width: 220px;
+  height: 100px;
+}
+main .mcontainer .section4 .center .box5 .imageb {
+  width: 65px;
+  height: 50px;
+  margin: 0 auto;
+}
+main .mcontainer .section4 .center .box5 .imageb img {
+  width: 100%;
+  height: 100%;
+}
+main .mcontainer .section4 .center .box5 h3 {
+  margin-top: 27px;
+  color: #f9f9f9;
+  text-align: center;
+}
+main .mcontainer .section5 {
+  background-color: #141416;
+}
+main .mcontainer .section5 .titletext {
+  width: 1106px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+main .mcontainer .section5 .titletext h2 {
+  color: #f9f9f9;
+}
+main .mcontainer .section5 .titletext h3 {
+  color: #f9f9f9;
+}
+main .mcontainer .section5 .center {
+  display: flex;
+  margin: 0 auto;
+  width: 1106px;
+  justify-content: space-between;
+}
+main .mcontainer .section5 .center .picc {
+  width: 49%;
+  height: 316px;
+  overflow: hidden;
+}
+main .mcontainer .section5 .center .picc img {
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+}
+main .mcontainer .section5 .center .picc img:hover img {
+  transform: scale(1.5);
+}
+main .mcontainer .section5 .center .specialbox2 {
+  width: 49%;
+  height: 310px;
+}
+main .mcontainer .section5 .center .specialbox2 .text23 {
+  display: flex;
+  height: 24.7%;
+  width: 100%;
+  border: 1px solid #adb5bd;
+  align-items: center;
+  justify-content: center;
+  background-color: #141416;
+}
+main .mcontainer .section5 .center .specialbox2 .text23 .src22 {
+  width: 60px;
+  height: 60px;
+}
+main .mcontainer .section5 .center .specialbox2 .text23 .src22 img {
+  width: 100%;
+  height: 100%;
+}
+main .mcontainer .section5 .center .specialbox2 .text23 .text32 {
+  width: 75%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .mcontainer .section5 .center .specialbox2 .text23 .text32 h2 {
+  color: #f9f9f9;
+}
+main .mcontainer .section5 .center .specialbox2 .text23 .text32 h2:last-child {
+  background-color: #0063E5;
+  width: 220px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
 /*
  footer
 

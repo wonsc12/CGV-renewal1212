@@ -1,4 +1,4 @@
-body{background-color: #fff; padding-top: 80px; }
+body{background-color: #f9f9f9; padding-top: 80px; }
 
 /*
 header
@@ -20,7 +20,7 @@ header{
     transition: 1s;
    width: 1276px;
    border-radius: 40px;
-   background-color: #fff;  
+   background-color: #f9f9f9;  
    margin: 0 auto;
    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
     .center{  
@@ -81,7 +81,7 @@ header{
                       color: black;
                       border-radius: 10px;
                       font-weight:normal;
-                    &:hover {background-color: #141416; color: #fff;}  
+                    &:hover {background-color: #141416; color: #f9f9f9;}  
                     
                       
                   }
@@ -168,7 +168,7 @@ header{
       } 
     }
   }
-  .sideM { width: 280px; height:100vh; background-color:#fff ; position: fixed; top:0; right: -280px;
+  .sideM { width: 280px; height:100vh; background-color:#f9f9f9 ; position: fixed; top:0; right: -280px;
     transition: all 1s;  z-index: 99;
     .lineBtn { position: relative; display: flex; flex-direction: column;
        .btn2 { display: block; position: absolute; right: 50px; top:10%; transform: translateY(-50%);
@@ -233,29 +233,29 @@ header.fixer{ position: fixed; top:0; bottom: unset; display: block;z-index: 51;
         >ul { 
           >li{ 
             .menu {
-            &::after { background-color: #fff;}
+            &::after { background-color: #f9f9f9;}
             }
             
             
-            >a{color:#fff; }
+            >a{color:#f9f9f9; }
             > ul{ 
             
              
-            &:hover .menu::after {background:#fff;  } 
+            &:hover .menu::after {background:#f9f9f9;  } 
             } 
           } 
         }
       }
       .three{
         .login { 
-          color: #fff;
-          i { color: #fff;}
-          a { color: #fff;}
-          .search {color: #fff;}
+          color: #f9f9f9;
+          i { color: #f9f9f9;}
+          a { color: #f9f9f9;}
+          .search {color: #f9f9f9;}
         } 
       } 
       .spanBtn {
-        span { background-color: #fff;}
+        span { background-color: #f9f9f9;}
       }
     }
   }
@@ -290,7 +290,7 @@ main {
       }
       .circleBtn{ z-index: 4; display: flex; position: absolute; left: 50%;bottom: 40px; transform: translateX(-50%); z-index: 10;
         .on{
-            a{background-color:#fff ;width: 250px;height: 2 ; 
+            a{background-color:#f9f9f9 ;width: 250px;height: 2 ; 
             }
         }
         li{ 
@@ -298,11 +298,11 @@ main {
               background-color: #6e6e6e; margin: 5px  3px; transition: all 0.5s;
                 
             }  
-          &:hover a {background-color: #fff;}    
+          &:hover a {background-color: #f9f9f9;}    
         }  
       }
     }
-    .section2{ 
+    .section2{  display: none;
       .center2 {   width: 1106px; margin: 0 auto;  display: flex; justify-content: center;
           .search_text{
 
@@ -394,6 +394,95 @@ main {
              }
         }
       }
+    }
+    .section3event{ background-color: #141416;
+      .titletext{width: 1106px; display: flex; justify-content: space-between;
+        h2 { color: #f9f9f9;}
+        h3{ color: #f9f9f9;}
+
+      }
+      .center {  width: 1106px; margin: 0 auto; text-align: center;
+        
+        .Eventad { 
+          >ul{ display: flex; justify-content: center;
+            li { 
+              &::after{ content:"";display: inline-block; position: relative; top:1px; width: 2px; height: 15px; 
+                background-color: #eb8102; margin: 0 31px;} 
+            
+            a { color: #f9f9f9;}    
+             
+            &:last-child::after {
+                display:none;}
+
+            }
+            li.on a {color: red;}
+          }
+          .box12{display: flex; flex-wrap: wrap;
+            .all { width: 31.333333%; margin: 1%; position: relative;
+              .bg {width: 98%; height: 98%; opacity: 0; background-color: #dacf45;  
+                position: absolute; left: 5px; top:4px; transition: all 0.5s;text-align: center; 
+                
+                span{font-size: 100px; color: #f9f9f9; margin-top: 10%;}
+                h2{ color: #f9f9f9;}
+                p{color: #f9f9f9;}
+            }
+              img {width: 100%; height: 100%; }
+             }
+            .small {height: 91px;}
+            .big { height: 208px; }  
+            .wide { width: 64.666666%; height: 202px;}  
+
+          }
+
+        }
+      }
+    }
+    .section4{ background-color: #141416;
+      .center{ width: 1106px; margin: 0 auto; display: flex; justify-content: space-between;
+        .box5 { width: 220px; height: 100px; 
+          .imageb { width: 65px; height: 50px; margin: 0 auto;
+            img {width: 100%; height: 100%; }   
+          }
+          h3 { margin-top: 27px; color: #f9f9f9; text-align: center;}
+         
+
+        }
+      }
+    }
+    .section5{ background-color: #141416;
+      .titletext {  width: 1106px; margin: 0 auto; display: flex; justify-content: space-between;
+        h2{ color: #f9f9f9;}
+        h3{ color: #f9f9f9;}
+      }
+      .center {display: flex; margin: 0 auto; width: 1106px; justify-content: space-between;
+       
+        .picc {  width: 49%; height: 316px; overflow: hidden;
+          img {  width: 100% ; height: 100%; transition: all 1s;
+            &:hover img {transform: scale(1.5);}}
+        }
+        .specialbox2{width: 49%; height: 310px;
+          .text23 { display: flex; height: 24.7%; width: 100%; border: 1px solid #adb5bd;
+                  align-items: center; justify-content: center; background-color: #141416;
+
+              .src22 {width: 60px; height: 60px;
+                  img { width: 100%; height: 100%;}
+              }
+              .text32 { width: 75%; margin-left: 20px; display: flex; align-items: center; justify-content: space-between;
+                h2{ color: #f9f9f9;
+                  &:last-child { background-color: #0063E5; width: 220px; height: 40px; display: flex; align-items: center; justify-content: center;
+                    border-radius: 15px;
+                  }
+                }
+                     
+                     
+                  
+              }
+          }
+        }
+      }
+    }
+    .section6{
+      
     }
   }
 }
