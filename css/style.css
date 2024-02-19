@@ -549,6 +549,10 @@ main .mcontainer .section2 .boxoffice2 .image12 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+main .mcontainer .section2 .boxoffice2 .image12 img {
+  width: 100%;
+  height: 100%;
+}
 main .mcontainer .section2 .boxoffice2 .smallslider2 {
   position: relative;
   margin: 0 auto;
