@@ -419,13 +419,13 @@ main {
         }
       }
     }
-    .section3event{ background-color: #141416; margin: 100px auto;
+    .section3event{ background-color: #141416; margin: 300px auto;
       .titletext{width: 1106px; display: flex; justify-content: space-between;
         h2 { color: #f9f9f9;}
         h3{ color: #f9f9f9;}
 
       }
-      .center {  width: 1106px; margin: 0 auto; text-align: center;
+      .center {  width: 1106px; margin: 0 auto; text-align: center; height: 800px;
         
         .Eventad { 
           >ul{ display: flex; justify-content: center;
@@ -506,8 +506,44 @@ main {
         }
       }
     }
-    .section6{
-      
+    .section6{ width: 1106px;  margin: 0 auto; 
+      .titletext{
+        .title{}
+      }
+      .menuflex{ 
+        .tabMenu { display: flex; justify-content: start; width: 30%; 
+          li {width:160px;line-height: 50px; height:50px; text-align: center;
+          
+              a {background-color: #fff; color:#000; 
+                  display: block;height:100%;text-align: center;
+                  
+                  
+              }
+                 
+          }
+          li a.active{
+            color: #fff; 
+            background: #000;
+          }
+          .color{background-color: #0063E5; color: #fff  
+          }     
+        }
+        h2{}
+      }  
+      .center6{ height: 500px; background-color: #0063E5;
+        .Wrap{ 
+          .tabCont{ 
+            
+            >div{ display: none;
+              .image{
+                img{}
+              }
+
+            }
+            >div.active { display: block;}
+          }
+        }
+      } 
     }
   }
 }

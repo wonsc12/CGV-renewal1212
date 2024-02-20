@@ -688,7 +688,7 @@ main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .circleBtn22 li.on
 }
 main .mcontainer .section3event {
   background-color: #141416;
-  margin: 100px auto;
+  margin: 300px auto;
 }
 main .mcontainer .section3event .titletext {
   width: 1106px;
@@ -705,6 +705,7 @@ main .mcontainer .section3event .center {
   width: 1106px;
   margin: 0 auto;
   text-align: center;
+  height: 800px;
 }
 main .mcontainer .section3event .center .Eventad > ul {
   display: flex;
@@ -875,6 +876,47 @@ main .mcontainer .section5 .center .specialbox2 .text23 .text32 h2:last-child {
   justify-content: center;
   border-radius: 15px;
 }
+main .mcontainer .section6 {
+  width: 1106px;
+  margin: 0 auto;
+}
+main .mcontainer .section6 .menuflex .tabMenu {
+  display: flex;
+  justify-content: start;
+  width: 30%;
+}
+main .mcontainer .section6 .menuflex .tabMenu li {
+  width: 160px;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+}
+main .mcontainer .section6 .menuflex .tabMenu li a {
+  background-color: #fff;
+  color: #000;
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+main .mcontainer .section6 .menuflex .tabMenu li a.active {
+  color: #fff;
+  background: #000;
+}
+main .mcontainer .section6 .menuflex .tabMenu .color {
+  background-color: #0063E5;
+  color: #fff;
+}
+main .mcontainer .section6 .center6 {
+  height: 500px;
+  background-color: #0063E5;
+}
+main .mcontainer .section6 .center6 .Wrap .tabCont > div {
+  display: none;
+}
+main .mcontainer .section6 .center6 .Wrap .tabCont > div.active {
+  display: block;
+}
+
 /*
  footer
 
