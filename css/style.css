@@ -440,9 +440,6 @@ main .mcontainer .section1 .circleBtn li a {
 main .mcontainer .section1 .circleBtn li:hover a {
   background-color: #f9f9f9;
 }
-main .mcontainer .section2 {
-  display: none;
-}
 main .mcontainer .section2 .center2 {
   width: 1106px;
   margin: 0 auto;
