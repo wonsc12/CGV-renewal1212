@@ -192,8 +192,8 @@ section2ptdate.forEach((element)=>{
                   <span class="dday"></span>
                   <span class="number">${element.number}</span>
                   <div class="cinema4">
-                    <div class="text">
-                      <p class="content">${element.content}</p>
+                    <div class="textds">
+                      <p class="contentds">${element.content}</p>
                     </div>
                     <br>
                       <div class="Reviewt">
@@ -225,8 +225,8 @@ section2ptdate2.forEach((element)=>{
                   <span class="number">${element.number}</span>
                   
                   <div class="cinema4">
-                    <div class="text">
-                      <p class="content">${element.content}</p>
+                    <div class="textds">
+                      <p class="contentds">${element.content}</p>
                     </div>
                     <br>
                       <div class="Reviewt">
@@ -258,8 +258,8 @@ section2ptdate3.forEach((element)=>{
                   <span class="number">${element.number}</span>
                  
                   <div class="cinema4">
-                    <div class="text">
-                      <p class="content">${element.content}</p>
+                    <div class="textds">
+                      <p class="contentds">${element.content}</p>
                     </div>
                     <br>
                       <div class="Reviewt">
@@ -291,8 +291,8 @@ section2ptdate4.forEach((element)=>{
                 <span class="number">${element.number}</span>
                 
                 <div class="cinema4">
-                  <div class="text">
-                    <p class="content">${element.content}</p>
+                  <div class="textds">
+                    <p class="contentds">${element.content}</p>
                   </div>
                   <br>
                     <div class="Reviewt">
