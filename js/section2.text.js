@@ -242,8 +242,8 @@ section2date.forEach((element)=>{
                   <span class="dday"></span>
                   <span class="number">${element.number}</span>
                   <div class="cinema4">
-                    <div class="text">
-                      <p class="content">${element.content}</p>
+                    <div class="textds">
+                      <p class="contentds">${element.content}</p>
                     </div>
                     <br>
                       <div class="Reviewt">
@@ -270,20 +270,20 @@ section2date2.forEach((element)=>{
     list3 += `<div class="pto">
                 <a href="#">
                 <img class="imgsmall" src="${element.img}" alt="${element.alt}"></a>
-                  <div class="age"><img src="${element.age}"></div>
-                  <span class="dday"></span>
-                  <span class="number">${element.number}</span>
-                  
-                  <div class="cinema4">
-                    <div class="text">
-                      <p class="content">${element.content}</p>
-                    </div>
-                    <br>
-                      <div class="Reviewt">
-                        <p class="Rev">관람평</p>
-                        <p class="Review">${element.review}</p>
-                      </div>
+                <div class="age"><img src="${element.age}"></div>
+                <span class="dday"></span>
+                <span class="number">${element.number}</span>
+                
+                <div class="cinema4">
+                  <div class="textds">
+                    <p class="contentds">${element.content}</p>
                   </div>
+                  <br>
+                    <div class="Reviewt">
+                      <p class="Rev">관람평</p>
+                      <p class="Review">${element.review}</p>
+                    </div>
+                </div>
               </div>
               
               `
@@ -308,8 +308,8 @@ section2date3.forEach((element)=>{
                   <span class="number">${element.number}</span>
                  
                   <div class="cinema4">
-                    <div class="text">
-                      <p class="content">${element.content}</p>
+                    <div class="textds">
+                      <p class="contentds">${element.content}</p>
                     </div>
                     <br>
                       <div class="Reviewt">
@@ -341,8 +341,8 @@ section2date4.forEach((element)=>{
                 <span class="number">${element.number}</span>
                 
                 <div class="cinema4">
-                  <div class="text">
-                    <p class="content">${element.content}</p>
+                  <div class="textds">
+                    <p class="contentds">${element.content}</p>
                   </div>
                   <br>
                     <div class="Reviewt">

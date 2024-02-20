@@ -323,10 +323,18 @@ main {
                   opacity: 0; transition: all 0.5s; z-index: 2;
               &:nth-child(1) { opacity: 1; z-index: 3;}
               }
-              .pto3{display: flex; justify-content: center;
-                > div {border: 1px solid #000;box-sizing: border-box;  width: 125px;
+              .pto3{display: flex; justify-content: center; 
+                .pto {border: 1px solid #000;box-sizing: border-box;  width: 125px; position: relative;
                   a {
                       img{width: 100%; height: 173px;}   
+                  }
+                  .age { position: absolute; top:0 ;left: 0;}
+                    
+                  .number{position: absolute; bottom: 0; left: 0; color: #f9f9f9; font-size: 35px;}
+                  .cinema4{
+                    .textds{
+                      .contentds { position: absolute; display: none;}
+                    }
                   }  
                 }
               }
