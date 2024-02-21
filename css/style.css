@@ -827,14 +827,15 @@ main .mcontainer .section5 .center .picc {
   width: 49%;
   height: 316px;
   overflow: hidden;
+  border-radius: 20px;
 }
 main .mcontainer .section5 .center .picc img {
   width: 100%;
   height: 100%;
   transition: all 1s;
 }
-main .mcontainer .section5 .center .picc img:hover img {
-  transform: scale(1.5);
+main .mcontainer .section5 .center .picc:hover img {
+  transform: scale(1.1);
 }
 main .mcontainer .section5 .center .specialbox2 {
   width: 49%;
@@ -848,21 +849,27 @@ main .mcontainer .section5 .center .specialbox2 .text23 {
   align-items: center;
   justify-content: center;
   background-color: #141416;
+  position: relative;
 }
 main .mcontainer .section5 .center .specialbox2 .text23 .src22 {
-  width: 60px;
-  height: 60px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 30;
+  opacity: 0;
 }
 main .mcontainer .section5 .center .specialbox2 .text23 .src22 img {
   width: 100%;
   height: 100%;
 }
 main .mcontainer .section5 .center .specialbox2 .text23 .text32 {
-  width: 75%;
+  width: 85%;
   margin-left: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: absolute;
+  z-index: 29;
 }
 main .mcontainer .section5 .center .specialbox2 .text23 .text32 h2 {
   color: #f9f9f9;
@@ -880,15 +887,18 @@ main .mcontainer .section6 {
   width: 1106px;
   margin: 0 auto;
 }
-main .mcontainer .section6 .menuflex .tabMenu {
+main .mcontainer .section6 .menuflex {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
+}
+main .mcontainer .section6 .menuflex .tabMenu {
   width: 30%;
+  display: flex;
 }
 main .mcontainer .section6 .menuflex .tabMenu li {
-  width: 160px;
-  line-height: 50px;
-  height: 50px;
+  width: 120px;
+  line-height: 40px;
+  height: 40px;
   text-align: center;
 }
 main .mcontainer .section6 .menuflex .tabMenu li a {
@@ -900,21 +910,24 @@ main .mcontainer .section6 .menuflex .tabMenu li a {
 }
 main .mcontainer .section6 .menuflex .tabMenu li a.active {
   color: #fff;
-  background: #000;
-}
-main .mcontainer .section6 .menuflex .tabMenu .color {
-  background-color: #0063E5;
-  color: #fff;
-}
-main .mcontainer .section6 .center6 {
-  height: 500px;
-  background-color: #0063E5;
+  background: #0063E5;
 }
 main .mcontainer .section6 .center6 .Wrap .tabCont > div {
   display: none;
 }
+main .mcontainer .section6 .center6 .Wrap .tabCont > div .image {
+  width: 592px;
+  height: 567px;
+}
+main .mcontainer .section6 .center6 .Wrap .tabCont > div .image img {
+  width: 100%;
+  height: 100%;
+}
+main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs {
+  display: flex;
+}
 main .mcontainer .section6 .center6 .Wrap .tabCont > div.active {
-  display: block;
+  display: flex;
 }
 
 /*

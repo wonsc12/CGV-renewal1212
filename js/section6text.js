@@ -57,17 +57,17 @@ tabSet.innerHTML = tablist;
 let tabDate2 = [
   { 
       spanSrc:"",
-      title:"안sd개의호흡! 패키지",
-      price :"#22,000원",
+      title:"CGV 골드클래스",
+      price :"40,000원",
       spanSrc2:"",
-      title2:"사랑sd의호흡! 패키지",
-      price2 :"#22,000원",
+      title2:"CGV 씨네드쉐프 관람권",
+      price2 :"50,000원",
       spanSrc:"",
-      title3:"우리sdf 패키지",
-      price3 :"61,000원",
+      title3:"CGV 영화관람권",
+      price3 :"13,000원",
       spanSrc:"",
-      title4:"스페sd셜 패키지",
-      price4 :"56,000원"
+      title4:"4DX관람권",
+      price4 :"19,000원"
   },
 ];
 

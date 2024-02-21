@@ -373,48 +373,48 @@ main {
           }
           .smallslider2 {position: relative;margin: 0 auto;width: 80%; height: 173px; display: flex; justify-content: center;
                   
-              .view2{width: 100%; height: 100%;
-                  > div{ width: 100%; height: 100%; position: absolute; 
-                      opacity: 0; transition: all 0.5s; z-index: 2;
-                  &:nth-child(1) { opacity: 1; z-index: 3;}
-                  }
-                  .pto4{display: flex;  justify-content: center;
-                      .pto2 {border: 1px solid #000;box-sizing: border-box; width: 125px; position: relative;
-                        a {
-                          img{width: 100%; height: 173px;}   
-                        }
-                        .age { position: absolute; top:3px ;left: 86px;}
-                          
-                        .number{position: absolute; bottom: 0; left: 0; color: #f9f9f9; font-size: 35px;}
-                        .cinema4{
-                          .textds{
-                            .contentds { position: absolute; display: none;}
-                          }
-                          .Reviewt { position: absolute; top:10px ; left:10px; display: flex;
-                            .Rev {}
-                            .Review {}
-                          }
-                        }  
+            .view2{width: 100%; height: 100%;
+                > div{ width: 100%; height: 100%; position: absolute; 
+                    opacity: 0; transition: all 0.5s; z-index: 2;
+                &:nth-child(1) { opacity: 1; z-index: 3;}
+                }
+                .pto4{display: flex;  justify-content: center;
+                    .pto2 {border: 1px solid #000;box-sizing: border-box; width: 125px; position: relative;
+                      a {
+                        img{width: 100%; height: 173px;}   
                       }
-                  }
+                      .age { position: absolute; top:3px ;left: 86px;}
+                        
+                      .number{position: absolute; bottom: 0; left: 0; color: #f9f9f9; font-size: 35px;}
+                      .cinema4{
+                        .textds{
+                          .contentds { position: absolute; display: none;}
+                        }
+                        .Reviewt { position: absolute; top:10px ; left:10px; display: flex;
+                          .Rev {}
+                          .Review {}
+                        }
+                      }  
+                    }
+                }
               }
-              .btns22{ 
-                  div{position: absolute; top:50%; transform: translateY(-50%);z-index: 5;}
-                  .prevBtn22{  left:-100px; font-size: 30px;
-                      i { color: #000;}
-                  }
-                  .nextBtn22{ right: -100px; font-size: 30px;
-                      i { color: #000;}
-                  }    
-              }
-              .circleBtn22{ position: absolute; left:50%; bottom: -35px; transform: translateX(-50%);
-                  z-index: 4;display: flex;
-                  li{ 
-                      a { display: block; width: 20px; background-color: #f9f9f9; border-radius: 50%;
-                          height: 20px; margin: 0 10px;transition: all 0.5s;}
-                  }
-                  li.on a{background-color: #0063E5;width: 50px; border-radius: 20px; }
-               }
+            .btns22{ 
+                div{position: absolute; top:50%; transform: translateY(-50%);z-index: 5;}
+                .prevBtn22{  left:-100px; font-size: 30px;
+                    i { color: #000;}
+                }
+                .nextBtn22{ right: -100px; font-size: 30px;
+                    i { color: #000;}
+                }    
+            }
+            .circleBtn22{ position: absolute; left:50%; bottom: -35px; transform: translateX(-50%);
+                z-index: 4;display: flex;
+                li{ 
+                    a { display: block; width: 20px; background-color: #f9f9f9; border-radius: 50%;
+                        height: 20px; margin: 0 10px;transition: all 0.5s;}
+                }
+                li.on a{background-color: #0063E5;width: 50px; border-radius: 20px; }
+            }
           }
         }
       }
@@ -458,19 +458,16 @@ main {
             .wide { width: 64.666666%; height: 202px;}  
 
           }
-
         }
       }
     }
     .section4{ background-color: #141416;
       .center{ width: 1106px; margin: 0 auto; display: flex; justify-content: space-between;
         .box5 { width: 220px; height: 100px; 
-          .imageb { width: 65px; height: 50px; margin: 0 auto;
+          .imageb { width: 65px; height: 50px; margin: 0 auto; 
             img {width: 100%; height: 100%; }   
           }
           h3 { margin-top: 27px; color: #f9f9f9; text-align: center;}
-         
-
         }
       }
     }
@@ -481,27 +478,26 @@ main {
       }
       .center {display: flex; margin: 0 auto; width: 1106px; justify-content: space-between;
        
-        .picc {  width: 49%; height: 316px; overflow: hidden;
-          img {  width: 100% ; height: 100%; transition: all 1s;
-            &:hover img {transform: scale(1.5);}}
+        .picc {  width: 49%; height: 316px; overflow: hidden; border-radius: 20px;
+          img {  width: 100% ; height: 100%; transition: all 1s; 
+            }
+            &:hover img {transform: scale(1.1);}
         }
+        
         .specialbox2{width: 49%; height: 310px;
           .text23 { display: flex; height: 24.7%; width: 100%; border: 1px solid #adb5bd;
-                  align-items: center; justify-content: center; background-color: #141416;
+                  align-items: center; justify-content: center; background-color: #141416; position: relative;
 
-              .src22 {width: 60px; height: 60px;
-                  img { width: 100%; height: 100%;}
-              }
-              .text32 { width: 75%; margin-left: 20px; display: flex; align-items: center; justify-content: space-between;
-                h2{ color: #f9f9f9;
-                  &:last-child { background-color: #0063E5; width: 220px; height: 40px; display: flex; align-items: center; justify-content: center;
-                    border-radius: 15px;
-                  }
+            .src22 {width: 100%; height: 100%; position: absolute; z-index: 30; opacity: 0;
+                img { width: 100%; height: 100%;}
+            }
+            .text32 { width: 85%; margin-left: 20px; display: flex; align-items: center; justify-content: space-between; position: absolute; z-index: 29;
+              h2{ color: #f9f9f9;
+                &:last-child { background-color: #0063E5; width: 220px; height: 40px; display: flex; align-items: center; justify-content: center;
+                  border-radius: 15px;
                 }
-                     
-                     
-                  
-              }
+              }                  
+            }
           }
         }
       }
@@ -510,37 +506,56 @@ main {
       .titletext{
         .title{}
       }
-      .menuflex{ 
-        .tabMenu { display: flex; justify-content: start; width: 30%; 
-          li {width:160px;line-height: 50px; height:50px; text-align: center;
+      .menuflex{ display: flex; justify-content: space-between;
+        .tabMenu {  width: 30%;  display: flex;
+          li {width:120px;line-height: 40px; height:40px; text-align: center;
           
               a {background-color: #fff; color:#000; 
-                  display: block;height:100%;text-align: center;
-                  
-                  
-              }
-                 
+                  display: block;height:100%;text-align: center;       
+              }       
           }
           li a.active{
             color: #fff; 
-            background: #000;
-          }
-          .color{background-color: #0063E5; color: #fff  
-          }     
+            background: #0063E5;
+          }   
         }
         h2{}
       }  
-      .center6{ height: 500px; background-color: #0063E5;
+      .center6{ 
         .Wrap{ 
           .tabCont{ 
             
-            >div{ display: none;
-              .image{
-                img{}
+            >div{ display: none; 
+              .image{ width: 592px; height: 567px;
+                img{ width: 100%; height: 100%;}
               }
+              .tabbox2{
+                .text23{
+                  .src22 {
 
+                  }
+                  .tabs{ display: flex;
+                    .tabtext{
+                      .text32{
+                        h2{}
+                        h3{}
+                      }
+                    }
+                  }
+                }
+                .tabtext{
+                  .text32{
+                    h2{}
+                    h3{}
+                  }
+                  .text32{
+                    h2{}
+                    h3{}
+                  }
+                }
+              }
             }
-            >div.active { display: block;}
+            >div.active { display: flex;}
           }
         }
       } 
