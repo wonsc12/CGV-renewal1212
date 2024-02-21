@@ -2,10 +2,10 @@ let tabDate = [
   { 
       spanSrc:"./images/gg1.jpg",
       title:"안개의호흡! 패키지",
-      price :"#22,000원",
+      price :"22,000원",
       spanSrc2:"./images/gg2.jpg",
       title2:"사랑의호흡! 패키지",
-      price2 :"#22,000원",
+      price2 :"22,000원",
       spanSrc3:"./images/gg3.jpg",
       title3:"우리 패키지",
       price3 :"61,000원",
@@ -66,16 +66,16 @@ tabSet.innerHTML = tablist;
 
 let tabDate2 = [
   { 
-      spanSrc:"",
+      spanSrc:"./images/gold.jpg",
       title:"CGV 골드클래스",
       price :"40,000원",
-      spanSrc2:"",
+      spanSrc2:"./images/gold2.jpg",
       title2:"CGV 씨네드쉐프 관람권",
       price2 :"50,000원",
-      spanSrc3:"",
+      spanSrc3:"./images/movie.jpg",
       title3:"CGV 영화관람권",
       price3 :"13,000원",
-      spanSrc4:"",
+      spanSrc4:"./images/4dx.jpg",
       title4:"4DX관람권",
       price4 :"19,000원"
   },
@@ -91,14 +91,14 @@ tabDate2.forEach(function(element){
 
                             <div class="tabs">
                               <div class="tabtext">
-                                <div class="text32">
+                                <div class="text32 textop">
                                   <div class="src22">
                                   <img src=${element.spanSrc}>
                                   </div>
                                   <h2>${element.title}</h2>
                                   <h3>${element.price}</h3>
                                 </div>
-                                <div class="text32">
+                                <div class="text32 textop">
                                   <div class="src22">
                                     <img src=${element.spanSrc2}>
                                   </div>
@@ -114,7 +114,7 @@ tabDate2.forEach(function(element){
                                   <h2>${element.title3}</h2>
                                   <h3>${element.price3}</h3>
                                 </div>
-                                <div class="text32">
+                                <div class="text32 texttt">
                                   <div class="src22">
                                     <img src=${element.spanSrc4}>
                                   </div>
@@ -132,18 +132,18 @@ tabSet2.innerHTML = tablist2;
 
 let tabDate3 = [
   { 
-      spanSrc:"",
-      title:"안ssdgsdgd개의호흡! 패키지",
-      price :"#22,000원",
-      spanSrc2:"",
-      title2:"사랑sgdssd의호흡! 패키지",
-      price2 :"#22,000원",
-      spanSrc:"",
-      title3:"우리sdgdsgsdf 패키지",
-      price3 :"61,000원",
-      spanSrc:"",
-      title4:"스페sdsg셜 패키지",
-      price4 :"56,000원"
+      spanSrc:"./images/vaca.jpg",
+      title:"CGV바캉스",
+      price :"충전형 선불 카드",
+      spanSrc2:"./images/va2.jpg",
+      title2:"PACONNIE A형",
+      price2 :"충전형 선불 카드",
+      spanSrc3:"./images/va3.jpg",
+      title3:"PACONNIE C형",
+      price3 :"충전형 선불 카드",
+      spanSrc4:"./images/va4.png",
+      title4:"CJ 기프트카드",
+      price4 :"CJ ONE에서 구매"
   },
 ];
 
@@ -157,14 +157,14 @@ tabDate3.forEach(function(element){
 
                 <div class="tabs">
                   <div class="tabtext">
-                    <div class="text32">
+                    <div class="text32 textop">
                       <div class="src22">
                       <img src=${element.spanSrc}>
                       </div>
                       <h2>${element.title}</h2>
                       <h3>${element.price}</h3>
                     </div>
-                    <div class="text32">
+                    <div class="text32 textop">
                       <div class="src22">
                         <img src=${element.spanSrc2}>
                       </div>

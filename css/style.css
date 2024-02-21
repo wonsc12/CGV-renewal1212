@@ -462,7 +462,7 @@ main .mcontainer .section2 .center2 .boxoffice .dtt {
 main .mcontainer .section2 .center2 .boxoffice .dtt .image1 {
   width: 100%;
   height: 100%;
-  background-image: url(../images/small1.jpg);
+  background: url(../images/small11.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -864,7 +864,6 @@ main .mcontainer .section5 .center .specialbox2 .text23 .src22 img {
 }
 main .mcontainer .section5 .center .specialbox2 .text23 .text32 {
   width: 85%;
-  margin-left: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -884,31 +883,35 @@ main .mcontainer .section5 .center .specialbox2 .text23 .text32 h2:last-child {
   border-radius: 15px;
 }
 main .mcontainer .section6 {
+  background-color: #141416;
+}
+main .mcontainer .section6 .center6 {
   width: 1106px;
   margin: 0 auto;
 }
-main .mcontainer .section6 .menuflex {
+main .mcontainer .section6 .center6 .menuflex {
   display: flex;
   justify-content: space-between;
 }
-main .mcontainer .section6 .menuflex .tabMenu {
-  width: 30%;
+main .mcontainer .section6 .center6 .menuflex .tabMenu {
+  width: 40%;
   display: flex;
 }
-main .mcontainer .section6 .menuflex .tabMenu li {
+main .mcontainer .section6 .center6 .menuflex .tabMenu li {
   width: 120px;
   line-height: 40px;
   height: 40px;
   text-align: center;
+  margin-right: 2px;
 }
-main .mcontainer .section6 .menuflex .tabMenu li a {
+main .mcontainer .section6 .center6 .menuflex .tabMenu li a {
   background-color: #fff;
   color: #000;
   display: block;
   height: 100%;
   text-align: center;
 }
-main .mcontainer .section6 .menuflex .tabMenu li a.active {
+main .mcontainer .section6 .center6 .menuflex .tabMenu li a.active {
   color: #fff;
   background: #0063E5;
 }
@@ -916,24 +919,184 @@ main .mcontainer .section6 .center6 .Wrap .tabCont > div {
   display: none;
 }
 main .mcontainer .section6 .center6 .Wrap .tabCont > div .image {
-  width: 592px;
-  height: 567px;
+  width: 582px;
+  height: 532px;
 }
 main .mcontainer .section6 .center6 .Wrap .tabCont > div .image img {
   width: 100%;
   height: 100%;
 }
-main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs {
+main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox22 .text23 .tabs, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox33 .text23 .tabs {
   display: flex;
+}
+main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs .tabtext, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox22 .text23 .tabs .tabtext, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox33 .text23 .tabs .tabtext {
+  margin-left: 88px;
+}
+main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs .tabtext .text32, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs .tabtext .textop, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox22 .text23 .tabs .tabtext .text32, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox22 .text23 .tabs .tabtext .textop, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox33 .text23 .tabs .tabtext .text32, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox33 .text23 .tabs .tabtext .textop {
+  text-align: center;
+  margin-bottom: 27px;
+}
+main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs .tabtext .text32 .src22, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs .tabtext .textop .src22, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox22 .text23 .tabs .tabtext .text32 .src22, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox22 .text23 .tabs .tabtext .textop .src22, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox33 .text23 .tabs .tabtext .text32 .src22, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox33 .text23 .tabs .tabtext .textop .src22 {
+  width: 170px;
+  height: 170px;
+}
+main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs .tabtext .text32 .src22 img, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs .tabtext .textop .src22 img, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox22 .text23 .tabs .tabtext .text32 .src22 img, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox22 .text23 .tabs .tabtext .textop .src22 img, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox33 .text23 .tabs .tabtext .text32 .src22 img, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox33 .text23 .tabs .tabtext .textop .src22 img {
+  width: 100%;
+  height: 100%;
+}
+main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs .tabtext .text32 h2, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs .tabtext .textop h2, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox22 .text23 .tabs .tabtext .text32 h2, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox22 .text23 .tabs .tabtext .textop h2, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox33 .text23 .tabs .tabtext .text32 h2, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox33 .text23 .tabs .tabtext .textop h2 {
+  color: #f9f9f9;
+  margin: 23px auto;
+}
+main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs .tabtext .text32 h3, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox2 .text23 .tabs .tabtext .textop h3, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox22 .text23 .tabs .tabtext .text32 h3, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox22 .text23 .tabs .tabtext .textop h3, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox33 .text23 .tabs .tabtext .text32 h3, main .mcontainer .section6 .center6 .Wrap .tabCont > div .tabbox33 .text23 .tabs .tabtext .textop h3 {
+  color: #f9f9f9;
 }
 main .mcontainer .section6 .center6 .Wrap .tabCont > div.active {
   display: flex;
+}
+main .mcontainer .section7 .center8 {
+  width: 1106px;
+  margin: 0 auto;
+}
+main .mcontainer .section7 .center8 .bigbox {
+  display: flex;
+  border: 1px solid #141416;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .notice .noticet {
+  display: flex;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .notice .noticet h2 {
+  margin: 21px 10px 20px 41px;
+  font-size: 14px;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .notice .noticet h3 {
+  margin: 21px 10px 20px 41px;
+  font-size: 16px;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .notice .noticet .box {
+  width: 81px;
+  height: 32px;
+  background-color: #0063E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 3 px 0 20px;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .notice .noticet .box p {
+  width: 100%;
+  height: 100%;
+  color: #f9f9f9;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .notice .noticet .box span {
+  color: #f9f9f9;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .notice .noticet2 {
+  display: flex;
+  margin-bottom: 23px;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .notice .noticet2 h2 {
+  font-size: 14px;
+  margin: 0 48px 0 41px;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .notice .noticet2 h3 {
+  font-size: 16px;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .faq .faqbox {
+  display: flex;
+  border-top: 1px solid #141416;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .faq .faqbox h2 {
+  margin: 42px 41px;
+  font-size: 16px;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .faq .faqbox .faq2 {
+  display: flex;
+  margin: 32px 0 0 38px;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .faq .faqbox .faq2 p {
+  margin-right: 18px;
+  font-size: 16px;
+  width: 90px;
+  height: 35px;
+  background-color: #0063E5;
+  color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .faq .faqbox2 {
+  display: flex;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .faq .faqbox2 h2 {
+  margin-left: 41px;
+  font-size: 16px;
+}
+main .mcontainer .section7 .center8 .bigbox .noticebox .faq .faqbox2 .faq3 p {
+  font-size: 16px;
+  width: 203px;
+  height: 35px;
+  background-color: #0063E5;
+  color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 47px;
+  margin-bottom: 10px;
+}
+main .mcontainer .section7 .center8 .bigbox .download {
+  text-align: center;
+  border-left: 1px solid #141416;
+  border-right: 1px solid #141416;
+}
+main .mcontainer .section7 .center8 .bigbox .download h2 {
+  margin: 22px 0;
+}
+main .mcontainer .section7 .center8 .bigbox .download p {
+  margin: 0 40px;
+}
+main .mcontainer .section7 .center8 .bigbox .download .qrcode {
+  width: 52px;
+  height: 52px;
+  margin: 21px auto;
+}
+main .mcontainer .section7 .center8 .bigbox .download .qrcode img {
+  width: 100%;
+  height: 100%;
+}
+main .mcontainer .section7 .center8 .bigbox .download p:last-child {
+  margin: 22px 0;
+}
+main .mcontainer .section7 .center8 .bigbox .bugs {
+  width: 204px;
+}
+main .mcontainer .section7 .center8 .bigbox .bugs img {
+  width: 100%;
+  height: 100%;
+}
+main .mcontainer .section9 .poster {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+}
+main .mcontainer .section9 .poster img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*
  footer
 
 */
+footer {
+  width: 1106px;
+  margin: 0 auto;
+}
 footer nav ul {
   display: flex;
 }
@@ -941,10 +1104,20 @@ footer nav ul li {
   line-height: 27px;
   display: flex;
   align-items: center;
+  width: 25%;
 }
 footer nav ul li span {
   line-height: 27px;
 }
 footer nav ul li a {
   line-height: 27px;
+}
+footer nav ul:nth-child(2) {
+  margin: 27px 0;
+}
+footer nav ul:nth-child(4) {
+  margin: 27px 0 54px 0;
+}
+footer .AllRights {
+  display: flex;
 }

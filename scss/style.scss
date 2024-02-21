@@ -81,17 +81,12 @@ header{
                       color: black;
                       border-radius: 10px;
                       font-weight:normal;
-                    &:hover {background-color: #141416; color: #f9f9f9;}  
-                    
-                      
-                  }
-                    
-                  
+                    &:hover {background-color: #141416; color: #f9f9f9;}      
+                  }    
               }
             }
             &:hover .menu::after { width: 100%;}   
-          }
-          
+          }   
         }
       }
      .three{ position: relative; z-index: 50; transition: 0.5s;
@@ -104,10 +99,7 @@ header{
           a { 
             line-height: 60px; 
             margin-left: 4.5px;}
-          
-
-           
-           
+       
           .searcgs{  background: url(../images/ico-search-white.png)no-repeat center/cover;
             width: 18px;
             height: 18px;
@@ -136,7 +128,7 @@ header{
           }
         }
         #myFoty { opacity: 1;
-          
+  
           
         }  
       }
@@ -181,17 +173,15 @@ header{
     }
    .sidemenu { margin-top: 225px; margin-left: 20px; 
       .mater { display: block;
-          li { line-height: 40px; font-weight: bold;
-              
-              .mDepth2 {height: 0; overflow: hidden; transition: all 0.5s;    
-                  li { 
-                      a {display: block; line-height: 50px; font-weight: lighter;
-                          text-indent: 25px;color:#141416;  }
-                  }
-              }
+        li { line-height: 40px; font-weight: bold;
+            
+          .mDepth2 {height: 0; overflow: hidden; transition: all 0.5s;    
+            li { 
+              a {display: block; line-height: 50px; font-weight: lighter;
+                  text-indent: 25px;color:#141416;  }
+            }
           }
-          
-          
+        }          
       }
       .three2{ margin-top: 150px; 
        
@@ -212,9 +202,6 @@ header{
 .sideM.move { right: 0;}
       
     
-  
-  
-
 header.fixer{ position: fixed; top:0; bottom: unset; display: block;z-index: 51;
                background-color: #141416;
   .container{ 
@@ -234,13 +221,11 @@ header.fixer{ position: fixed; top:0; bottom: unset; display: block;z-index: 51;
           >li{ 
             .menu {
             &::after { background-color: #f9f9f9;}
-            }
-            
+            }    
             
             >a{color:#f9f9f9; }
             > ul{ 
-            
-             
+              
             &:hover .menu::after {background:#f9f9f9;  } 
             } 
           } 
@@ -310,9 +295,9 @@ main {
           
         .boxoffice{width: 50%; margin: 0px auto;
           .dtt {width: 385px; height: 367px;  margin: 50px auto; 
-            .image1{width:100%; height: 100%; background-image:url(../images/small1.jpg);background-size: cover; background-repeat: no-repeat; 
-            
-           
+            .image1{width:100%; height: 100%; background: url(../images/small11.jpg);background-size: cover; background-repeat: no-repeat;    
+              img {
+                }
             }
           }
           
@@ -361,7 +346,6 @@ main {
                 li.on a{background-color: #0063E5;width: 50px; border-radius: 20px; }
             }
           }  
-
         }
         .boxoffice2 { width: 50%; margin: 0px auto;
         
@@ -491,7 +475,7 @@ main {
             .src22 {width: 100%; height: 100%; position: absolute; z-index: 30; opacity: 0;
                 img { width: 100%; height: 100%;}
             }
-            .text32 { width: 85%; margin-left: 20px; display: flex; align-items: center; justify-content: space-between; position: absolute; z-index: 29;
+            .text32 { width: 85%; display: flex; align-items: center; justify-content: space-between; position: absolute; z-index: 29;
               h2{ color: #f9f9f9;
                 &:last-child { background-color: #0063E5; width: 220px; height: 40px; display: flex; align-items: center; justify-content: center;
                   border-radius: 15px;
@@ -502,63 +486,121 @@ main {
         }
       }
     }
-    .section6{ width: 1106px;  margin: 0 auto; 
-      .titletext{
-        .title{}
-      }
-      .menuflex{ display: flex; justify-content: space-between;
-        .tabMenu {  width: 30%;  display: flex;
-          li {width:120px;line-height: 40px; height:40px; text-align: center;
-          
-              a {background-color: #fff; color:#000; 
-                  display: block;height:100%;text-align: center;       
-              }       
-          }
-          li a.active{
-            color: #fff; 
-            background: #0063E5;
-          }   
+    .section6{   background-color: #141416;
+      
+      .center6{ width: 1106px;  margin: 0 auto;
+        .titletext{
+          .title{}
         }
-        h2{}
-      }  
-      .center6{ 
+        .menuflex{ display: flex; justify-content: space-between;
+          .tabMenu {  width: 40%;  display: flex;
+            li {width:120px;line-height: 40px; height:40px; text-align: center; margin-right: 2px;
+            
+                a {background-color: #fff; color:#000; 
+                    display: block;height:100%;text-align: center;       
+                }       
+            }
+            li a.active{
+              color: #fff; 
+              background: #0063E5;
+            }   
+          }
+          h2{}
+        }  
         .Wrap{ 
-          .tabCont{ 
+          .tabCont{  
             
             >div{ display: none; 
-              .image{ width: 592px; height: 567px;
+              .image{ width: 582px; height: 532px;
                 img{ width: 100%; height: 100%;}
               }
-              .tabbox2{
-                .text23{
-                  .src22 {
-
-                  }
-                  .tabs{ display: flex;
-                    .tabtext{
-                      .text32{
-                        h2{}
-                        h3{}
+              .tabbox2 ,.tabbox22,.tabbox33{ 
+                .text23{ 
+                  
+                  .tabs{ display: flex; 
+                    .tabtext{ margin-left:  88px; 
+                      .text32 ,.textop{ text-align: center; margin-bottom: 27px;
+                        .src22 { width: 170px; height: 170px;
+                          img { width: 100%; height: 100%;}
+      
+                        }
+                        h2{ color: #f9f9f9; margin: 23px auto;}
+                        h3{color: #f9f9f9;}
                       }
+                      
                     }
                   }
-                }
-                .tabtext{
-                  .text32{
-                    h2{}
-                    h3{}
-                  }
-                  .text32{
-                    h2{}
-                    h3{}
-                  }
-                }
+                } 
               }
             }
             >div.active { display: flex;}
           }
         }
       } 
+    }
+    .section7 {
+      .center8{ width: 1106px; margin: 0 auto;
+        .bigbox{  display: flex; border: 1px solid #141416;
+          .noticebox{
+            .notice{ 
+              .noticet{display: flex; 
+                h2{margin: 21px 10px 20px 41px; font-size: 14px;}
+                h3{ margin: 21px 10px 20px 41px; font-size: 16px;}
+                .box{ width: 81px; height: 32px; background-color: #0063E5; display: flex; justify-content: center; align-items: center;  margin: 12px 3  px 0 20px   ;
+                  p{width: 100%; height: 100%; color: #f9f9f9; font-size: 16px; display: flex; justify-content: center; align-items: center;}
+                  span {  color: #f9f9f9;}
+                }
+              }
+              .noticet2{ display: flex; margin-bottom: 23px; 
+                h2{font-size: 14px; margin: 0 48px 0 41px;}
+                h3{font-size: 16px; }  
+              }          
+            }
+            .faq{
+              .faqbox{ display: flex; border-top: 1px solid #141416;
+                h2{ margin: 42px 41px;font-size: 16px;}
+                .faq2{ display: flex;  margin: 32px 0 0 38px; 
+                  p{  margin-right: 18px; font-size: 16px; width: 90px; height: 35px; background-color: #0063E5;
+                  color: #f9f9f9; display: flex; justify-content: center; align-items: center; 
+                
+                  }
+                }
+
+              }
+              .faqbox2{ display: flex; 
+                h2{ margin-left: 41px; font-size: 16px;}
+                .faq3{
+                  p{font-size: 16px; width: 203px; height: 35px; background-color: #0063E5; color: #f9f9f9;
+                    display: flex; justify-content: center; align-items: center; margin-left: 47px; margin-bottom: 10px;
+                  }
+                }
+              }
+            }
+          }
+          .download{ text-align: center; border-left: 1px solid #141416; border-right: 1px solid #141416;
+            h2{margin: 22px 0;}
+            p{margin: 0 40px;}
+            .qrcode{ width: 52px; height: 52px ; margin: 21px auto;
+              img{width: 100%; height: 100%;}
+            }
+            p{
+              &:last-child{margin: 22px 0;}
+            }
+          }
+          .bugs{width: 204px;
+            img{width: 100%; height: 100%;}
+          }
+        }
+      }
+    }
+    .section8{
+
+    }
+    .section9{ 
+      .clockcount {}
+      .poster { width: 100%; height: 300px; margin: 0 auto;
+        img { width: 100%; height: 100%; background-size: cover; background-repeat: no-repeat;}
+      }
     }
   }
 }
@@ -568,14 +610,26 @@ main {
  footer
 
 */
-footer {
+footer { width: 1106px; margin: 0 auto;
   nav {
     ul { display: flex; 
-      li { line-height: 27px; display: flex; align-items: center;
+      li { line-height: 27px; display: flex; align-items: center;  width: 25%;
         span {  line-height: 27px; }
         a { line-height: 27px;}
 
+        
       }
+      &:nth-child(2) {margin: 27px 0;}
+      &:nth-child(4) {margin: 27px 0 54px 0;}
     }
+  }
+  .footerp {
+    .spanp {
+      span{}
+    }
+    .cjgroupselect{}
+  }
+  .AllRights{ display: flex;
+
   }
 }
