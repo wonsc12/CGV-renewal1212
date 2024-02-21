@@ -1,15 +1,15 @@
 let tabDate = [
   { 
-      spanSrc:"",
+      spanSrc:"./images/gg1.jpg",
       title:"안개의호흡! 패키지",
       price :"#22,000원",
-      spanSrc2:"",
+      spanSrc2:"./images/gg2.jpg",
       title2:"사랑의호흡! 패키지",
       price2 :"#22,000원",
-      spanSrc:"",
+      spanSrc3:"./images/gg3.jpg",
       title3:"우리 패키지",
       price3 :"61,000원",
-      spanSrc:"",
+      spanSrc4:"./images/gg4.jpg",
       title4:"스페셜 패키지",
       price4 :"56,000원"
   },
@@ -22,28 +22,38 @@ let tablist = "";
 tabDate.forEach(function(element){
 
   tablist += `<div class="text23">
-                <div class="src22">
-                    <img src=${element.spanSrc}>
-                </div>
+
                 <div class="tabs">
                   <div class="tabtext">
                     <div class="text32">
-                        <h2>${element.title}</h2>
-                        <h3>${element.price}</h3>
+                      <div class="src22">
+                      <img src=${element.spanSrc}>
+                      </div>
+                      <h2>${element.title}</h2>
+                      <h3>${element.price}</h3>
                     </div>
                     <div class="text32">
-                        <h2>${element.title2}</h2>
-                        <h3>${element.price2}</h3>
+                      <div class="src22">
+                        <img src=${element.spanSrc2}>
+                      </div>
+                      <h2>${element.title2}</h2>
+                      <h3>${element.price2}</h3>
                     </div>
                   </div>
                   <div class="tabtext">
                     <div class="text32">
-                        <h2>${element.title3}</h2>
-                        <h3>${element.price3}</h3>
+                      <div class="src22">
+                        <img src=${element.spanSrc3}>
+                      </div>
+                      <h2>${element.title3}</h2>
+                      <h3>${element.price3}</h3>
                     </div>
                     <div class="text32">
-                        <h2>${element.title4}</h2>
-                        <h3>${element.price4}</h3>
+                      <div class="src22">
+                        <img src=${element.spanSrc4}>
+                      </div>
+                      <h2>${element.title4}</h2>
+                      <h3>${element.price4}</h3>
                     </div>
                   </div>
                 </div>
@@ -62,10 +72,10 @@ let tabDate2 = [
       spanSrc2:"",
       title2:"CGV 씨네드쉐프 관람권",
       price2 :"50,000원",
-      spanSrc:"",
+      spanSrc3:"",
       title3:"CGV 영화관람권",
       price3 :"13,000원",
-      spanSrc:"",
+      spanSrc4:"",
       title4:"4DX관람권",
       price4 :"19,000원"
   },
