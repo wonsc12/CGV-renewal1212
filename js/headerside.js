@@ -54,9 +54,11 @@ for(let i=0; i<mater.length; i++){
 
 const searcgs =document.querySelector(".searcgs");
 const three =document.querySelector(".three");
+const myfo = document.querySelector('#myFoty');
 
 searcgs.addEventListener("click",function(){
   three.classList.toggle("on2");
+  myfo.classList.toggle("on");
   
 
 });

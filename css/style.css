@@ -6,6 +6,43 @@ body {
 /*
 header
 */
+#myFoty {
+  margin-right: 30px;
+  position: absolute;
+  left: 76%;
+  z-index: 100;
+  opacity: 0;
+  transform: translateX(-50%);
+  top: 79px;
+  display: flex;
+  align-items: center;
+}
+#myFoty .box4 {
+  width: 85px;
+  height: 38px;
+  border-radius: 4px;
+  border: 1px solid #adb5bd;
+}
+#myFoty .box5 {
+  padding-left: 10px;
+  width: 240px;
+  height: 38px;
+  border-radius: 4px;
+  border: 1px solid #adb5bd;
+}
+#myFoty #searchBtn {
+  width: 50px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #adb5bd;
+  border: none;
+}
+
+#myFoty.on {
+  opacity: 1;
+  z-index: 100;
+}
+
 header {
   overflow: hidden;
   z-index: 10;
@@ -131,44 +168,12 @@ header .container .center .three .login .searcgs {
   line-height: 60px;
   margin-left: 23px;
 }
-header .container .center .three #myFoty {
-  margin-right: 30px;
-  position: absolute;
-  left: 42%;
-  z-index: 100;
-  opacity: 0;
-  transform: translateX(-50%);
-  top: 46px;
-  display: flex;
-  align-items: center;
-}
-header .container .center .three #myFoty .box4 {
-  width: 85px;
-  height: 38px;
-  border-radius: 4px;
-  border: 1px solid #adb5bd;
-}
-header .container .center .three #myFoty .box5 {
-  padding-left: 10px;
-  width: 240px;
-  height: 38px;
-  border-radius: 4px;
-  border: 1px solid #adb5bd;
-}
-header .container .center .three #myFoty #searchBtn {
-  width: 50px;
-  height: 38px;
-  border-radius: 4px;
-  background-color: #adb5bd;
-  border: none;
-}
 header .container .center .three.on2 .login .searcgs {
   background: url(../images/btn-header-layer-close.png) no-repeat center/cover;
   width: 18px;
   height: 18px;
-}
-header .container .center .three.on2 #myFoty {
-  opacity: 1;
+  line-height: 60px;
+  margin-left: 23px;
 }
 header .container .center .spanBtn {
   position: absolute;
@@ -980,7 +985,6 @@ main .mcontainer .section7 .center8 .bigbox .noticebox .notice .noticet .box {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 12px 3 px 0 20px;
 }
 main .mcontainer .section7 .center8 .bigbox .noticebox .notice .noticet .box p {
   width: 100%;
@@ -1015,7 +1019,6 @@ main .mcontainer .section7 .center8 .bigbox .noticebox .faq .faqbox h2 {
 }
 main .mcontainer .section7 .center8 .bigbox .noticebox .faq .faqbox .faq2 {
   display: flex;
-  margin: 32px 0 0 38px;
 }
 main .mcontainer .section7 .center8 .bigbox .noticebox .faq .faqbox .faq2 p {
   margin-right: 18px;
@@ -1094,30 +1097,49 @@ main .mcontainer .section9 .poster img {
 
 */
 footer {
+  background-color: #141416;
+}
+footer .centerfooter {
   width: 1106px;
   margin: 0 auto;
 }
-footer nav ul {
+footer .centerfooter nav ul {
   display: flex;
 }
-footer nav ul li {
+footer .centerfooter nav ul li {
   line-height: 27px;
   display: flex;
   align-items: center;
   width: 25%;
 }
-footer nav ul li span {
+footer .centerfooter nav ul li span {
   line-height: 27px;
 }
-footer nav ul li a {
+footer .centerfooter nav ul li a {
   line-height: 27px;
 }
-footer nav ul:nth-child(2) {
+footer .centerfooter nav ul:nth-child(2) {
   margin: 27px 0;
 }
-footer nav ul:nth-child(4) {
+footer .centerfooter nav ul:nth-child(4) {
   margin: 27px 0 54px 0;
 }
-footer .AllRights {
+footer .centerfooter .footerp .spanp span::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 17px;
+  background-color: #fff;
+  margin: 0 10px;
+  position: relative;
+  top: 3px;
+}
+footer .centerfooter .footerp .spanp span:nth-child(1)::after {
+  display: none;
+}
+footer .centerfooter .footerp .spanp span:nth-child(7)::after {
+  display: none;
+}
+footer .centerfooter .AllRights {
   display: flex;
 }
