@@ -113,7 +113,7 @@ function silderStartw(){
 
 
 
-const prevBtn22 = document.querySelector(".prevBtn22");
+        const prevBtn22 = document.querySelector(".prevBtn22");
 
         // 오른쪽 버튼 대상
         const nextBtn22 = document.querySelector(".nextBtn22");

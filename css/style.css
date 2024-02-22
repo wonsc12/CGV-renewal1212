@@ -1,6 +1,5 @@
 body {
   background-color: #f9f9f9;
-  padding-top: 80px;
 }
 
 /*
@@ -9,7 +8,7 @@ header
 #myFoty {
   margin-right: 30px;
   position: absolute;
-  left: 76%;
+  left: calc(50% + 530px);
   z-index: 100;
   opacity: 0;
   transform: translateX(-50%);
@@ -397,7 +396,7 @@ main .mcontainer .section1 .btns .prevBtn {
   background: url(../images/leftBtn.png) no-repeat;
   width: 120px;
   height: 120px;
-  left: -113px;
+  right: calc(50% + 729px);
   top: 50%;
   transform: translateY(-50%);
   z-index: 50;
@@ -411,7 +410,7 @@ main .mcontainer .section1 .btns .nextBtn {
   background: url(../images/rightBtn.png) no-repeat;
   width: 120px;
   height: 120px;
-  right: -180px;
+  left: calc(50% + 807px);
   top: 50%;
   transform: translateY(-50%);
   z-index: 50;
@@ -447,35 +446,31 @@ main .mcontainer .section1 .circleBtn li:hover a {
 }
 main .mcontainer .section2 {
   background-color: #141416;
-  padding: 0 0 50px 0;
+  padding-top: 162px;
+  padding-bottom: 400px;
+  position: relative;
 }
 main .mcontainer .section2 .center2 {
   width: 1106px;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
 }
 main .mcontainer .section2 .center2 .boxoffice {
-  width: 50%;
+  width: 100%;
   margin: 0px auto;
 }
-main .mcontainer .section2 .center2 .boxoffice .dtt {
-  width: 385px;
-  height: 367px;
-  margin: 50px auto;
+main .mcontainer .section2 .center2 .boxoffice .movie {
+  text-align: center;
+  margin-bottom: 25px;
 }
-main .mcontainer .section2 .center2 .boxoffice .dtt .image1 {
-  width: 100%;
-  height: 100%;
-  background: url(../images/small11.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+main .mcontainer .section2 .center2 .boxoffice .movie h2 {
+  color: #f9f9f9;
+  font-size: 32px;
 }
 main .mcontainer .section2 .center2 .boxoffice .smallslider {
   position: relative;
   margin: 0 auto;
-  width: 80%;
-  height: 173px;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
@@ -502,12 +497,13 @@ main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 {
 main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto {
   border: 1px solid #000;
   box-sizing: border-box;
-  width: 125px;
+  width: 240px;
+  height: 332px;
   position: relative;
 }
 main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto a img {
   width: 100%;
-  height: 173px;
+  height: 100%;
 }
 main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .age {
   position: absolute;
@@ -517,19 +513,48 @@ main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .ag
 main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .number {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 5px;
   color: #f9f9f9;
-  font-size: 35px;
+  font-size: 40px;
+  font-family: "Shrikhand", serif;
 }
-main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .cinema4 .textds .contentds {
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .cinema4 {
   position: absolute;
+  bottom: 40px;
+  left: calc(50% - 5px);
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .cinema5 {
+  position: absolute;
+  bottom: 26px;
+  left: calc(50% - 5px);
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .cinema6 {
+  position: absolute;
+  bottom: 10px;
+  left: calc(50% - 5px);
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .text .content {
   display: none;
 }
-main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .cinema4 .Reviewt {
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .Reviewt {
   position: absolute;
   top: 10px;
   left: 10px;
   display: flex;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .Reviewt .Rev {
+  display: block;
+  color: #f9f9f9;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .Reviewt .Review {
+  display: block;
+  color: #f9f9f9;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .heartTicketing {
+  display: flex;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .heartTicketing .heartbox span {
+  color: #f9f9f9;
 }
 main .mcontainer .section2 .center2 .boxoffice .smallslider .btns2 > div {
   position: absolute;
@@ -538,24 +563,25 @@ main .mcontainer .section2 .center2 .boxoffice .smallslider .btns2 > div {
   z-index: 5;
 }
 main .mcontainer .section2 .center2 .boxoffice .smallslider .btns2 .prevBtn2 {
-  left: -50px;
+  right: calc(50% + 226px);
   font-size: 30px;
 }
 main .mcontainer .section2 .center2 .boxoffice .smallslider .btns2 .prevBtn2 i {
-  color: #000;
+  color: #f9f9f9;
 }
 main .mcontainer .section2 .center2 .boxoffice .smallslider .btns2 .nextBtn2 {
-  right: -50px;
+  left: calc(50% + 226px);
   font-size: 30px;
 }
 main .mcontainer .section2 .center2 .boxoffice .smallslider .btns2 .nextBtn2 i {
-  color: #000;
+  color: #f9f9f9;
 }
 main .mcontainer .section2 .center2 .boxoffice .smallslider .circleBtn2 {
   position: absolute;
   left: 50%;
   bottom: -35px;
   transform: translateX(-50%);
+  margin-top: 100px;
   z-index: 4;
   display: flex;
 }
@@ -574,26 +600,22 @@ main .mcontainer .section2 .center2 .boxoffice .smallslider .circleBtn2 li.on a 
   border-radius: 20px;
 }
 main .mcontainer .section2 .center2 .boxoffice2 {
-  width: 50%;
-  margin: 0px auto;
-}
-main .mcontainer .section2 .center2 .boxoffice2 .image12 {
-  margin: 50px auto;
-  width: 385px;
-  height: 367px;
-  background-image: url(../images/small1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-main .mcontainer .section2 .center2 .boxoffice2 .image12 img {
   width: 100%;
-  height: 100%;
+  margin-top: 354px;
+}
+main .mcontainer .section2 .center2 .boxoffice2 .movie2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+main .mcontainer .section2 .center2 .boxoffice2 .movie2 h2 {
+  color: #f9f9f9;
+  font-size: 32px;
 }
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 {
   position: relative;
   margin: 0 auto;
-  width: 80%;
-  height: 173px;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
@@ -620,12 +642,13 @@ main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 {
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 .pto2 {
   border: 1px solid #000;
   box-sizing: border-box;
-  width: 125px;
+  width: 240px;
+  height: 332px;
   position: relative;
 }
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 .pto2 a img {
   width: 100%;
-  height: 173px;
+  height: 100%;
 }
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 .pto2 .age {
   position: absolute;
@@ -635,12 +658,12 @@ main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 .pto2
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 .pto2 .number {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 5px;
   color: #f9f9f9;
   font-size: 35px;
+  font-family: "Shrikhand", serif;
 }
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 .pto2 .cinema4 .textds .contentds {
-  position: absolute;
   display: none;
 }
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 .pto2 .cinema4 .Reviewt {
@@ -649,6 +672,18 @@ main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 .pto2
   left: 10px;
   display: flex;
 }
+main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 .pto2 .cinema4 .Reviewt .Rev {
+  display: block;
+}
+main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 .pto2 .cinema4 .Reviewt .Review {
+  display: block;
+}
+main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 .pto2 .cinema4 .heartTicketing {
+  display: flex;
+}
+main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .view2 .pto4 .pto2 .cinema4 .heartTicketing .heartbox span {
+  color: #f9f9f9;
+}
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .btns22 div {
   position: absolute;
   top: 50%;
@@ -656,18 +691,18 @@ main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .btns22 div {
   z-index: 5;
 }
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .btns22 .prevBtn22 {
-  left: -100px;
+  right: calc(50% + 226px);
   font-size: 30px;
 }
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .btns22 .prevBtn22 i {
-  color: #000;
+  color: #f9f9f9;
 }
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .btns22 .nextBtn22 {
-  right: -100px;
+  left: calc(50% + 226px);
   font-size: 30px;
 }
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .btns22 .nextBtn22 i {
-  color: #000;
+  color: #f9f9f9;
 }
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .circleBtn22 {
   position: absolute;
@@ -690,6 +725,18 @@ main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .circleBtn22 li.on
   background-color: #0063E5;
   width: 50px;
   border-radius: 20px;
+}
+main .mcontainer .section2 .search_text {
+  position: absolute;
+  top: 86px;
+  left: calc(50% + 318px);
+}
+main .mcontainer .section2 .search_text a {
+  color: #f9f9f9;
+  font-size: 22px;
+}
+main .mcontainer .section2 .search_text span {
+  color: #f9f9f9;
 }
 main .mcontainer .section3event {
   background-color: #141416;
@@ -1172,9 +1219,6 @@ footer .centerfooter .footerp .cjgroupselect .cjbox {
 footer .centerfooter .footerp .ticking {
   display: flex;
   justify-content: end;
-  position: absolute;
-  top: 60px;
-  right: -56px;
 }
 footer .centerfooter .footerp .ticking .tickingsu {
   width: 166px;
@@ -1187,6 +1231,8 @@ footer .centerfooter .footerp .ticking .tickingsu {
 }
 footer .centerfooter .footerp .ticking .tickingsu p {
   color: #f9f9f9;
+  font-size: 25px;
+  font-weight: normal;
 }
 footer .centerfooter .footerp .ticking .arrow {
   width: 45px;
@@ -1196,6 +1242,19 @@ footer .centerfooter .footerp .ticking .arrow {
 footer .centerfooter .footerp .ticking .arrow i {
   color: #f9f9f9;
   font-size: 52px;
+}
+footer .centerfooter .footerp #go-top {
+  z-index: 60;
+  position: fixed;
+  left: calc(50% + 390px);
+  bottom: 207px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s;
+}
+footer .centerfooter .footerp #go-top.active {
+  opacity: 1;
+  pointer-events: auto;
 }
 footer .centerfooter .AllRights {
   display: flex;
@@ -1263,5 +1322,20 @@ footer .centerfooter .AllRights .yftbox .twitter a {
   display: block;
 }
 footer .centerfooter .AllRights .yftbox .twitter a i {
+  font-size: 20px;
+}
+footer .centerfooter .AllRights .yftbox .instar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #0063E5;
+}
+footer .centerfooter .AllRights .yftbox .instar a {
+  display: block;
+}
+footer .centerfooter .AllRights .yftbox .instar a i {
   font-size: 20px;
 }
