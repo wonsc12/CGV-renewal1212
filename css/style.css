@@ -1125,6 +1125,12 @@ footer .centerfooter nav ul:nth-child(2) {
 footer .centerfooter nav ul:nth-child(4) {
   margin: 27px 0 54px 0;
 }
+footer .centerfooter .footerp {
+  position: relative;
+}
+footer .centerfooter .footerp .spanp {
+  margin-bottom: 60px;
+}
 footer .centerfooter .footerp .spanp span {
   color: #f9f9f9;
 }
@@ -1133,7 +1139,7 @@ footer .centerfooter .footerp .spanp span::after {
   display: inline-block;
   width: 2px;
   height: 17px;
-  background-color: #f9f9f9;
+  background-color: #0063E5;
   margin: 0 10px;
   position: relative;
   top: 3px;
@@ -1144,21 +1150,116 @@ footer .centerfooter .footerp .spanp span:nth-child(1)::after {
 footer .centerfooter .footerp .spanp span:nth-child(6)::after {
   display: none;
 }
+footer .centerfooter .footerp .spanp .ceoemail {
+  color: #0063E5;
+}
 footer .centerfooter .footerp .spanp p {
   margin: 27px 0;
 }
 footer .centerfooter .footerp .spanp p .heih::after {
   display: none;
 }
-footer .centerfooter .footerp .ticking p {
+footer .centerfooter .footerp .cjgroupselect {
+  width: 217px;
+  height: 30px;
+  border-radius: 20px;
+  position: absolute;
+  right: -4px;
+  top: 10px;
+}
+footer .centerfooter .footerp .ticking {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  top: 60px;
+  right: -56px;
+}
+footer .centerfooter .footerp .ticking .tickingsu {
+  width: 166px;
+  height: 50px;
+  background-color: #eb8102;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .centerfooter .footerp .ticking .tickingsu p {
   color: #f9f9f9;
 }
-footer .centerfooter .footerp .arrow i {
+footer .centerfooter .footerp .ticking .arrow {
+  width: 45px;
+  height: 45px;
+  margin-left: 8px;
+}
+footer .centerfooter .footerp .ticking .arrow i {
   color: #f9f9f9;
+  font-size: 52px;
 }
 footer .centerfooter .AllRights {
   display: flex;
+  justify-content: space-between;
+  padding: 51px 0;
 }
 footer .centerfooter .AllRights span {
   color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .centerfooter .AllRights .yftbox {
+  display: flex;
+}
+footer .centerfooter .AllRights .yftbox span {
+  margin-left: 20px;
+}
+footer .centerfooter .AllRights .yftbox .sns {
+  color: #0063E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .centerfooter .AllRights .yftbox .youtube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #0063E5;
+}
+footer .centerfooter .AllRights .yftbox .youtube a {
+  display: block;
+}
+footer .centerfooter .AllRights .yftbox .youtube a i {
+  font-size: 20px;
+}
+footer .centerfooter .AllRights .yftbox .facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #0063E5;
+}
+footer .centerfooter .AllRights .yftbox .facebook a {
+  display: block;
+}
+footer .centerfooter .AllRights .yftbox .facebook a i {
+  font-size: 20px;
+}
+footer .centerfooter .AllRights .yftbox .twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #0063E5;
+}
+footer .centerfooter .AllRights .yftbox .twitter a {
+  display: block;
+}
+footer .centerfooter .AllRights .yftbox .twitter a i {
+  font-size: 20px;
 }

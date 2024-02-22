@@ -168,7 +168,7 @@ header{
     }
   }
   .sideM { width: 280px; height:100vh; background-color:#f9f9f9 ; position: fixed; top:0; right: -280px;
-    transition: all 1s;  z-index: 99;
+    transition: all 1s;  z-index: 99; 
     .lineBtn { position: relative; display: flex; flex-direction: column;
        .btn2 { display: block; position: absolute; right: 50px; top:10%; transform: translateY(-50%);
           .line { display: block; width: 35px; height: 2px; background-color: #141416;transition: all 1s;}
@@ -631,34 +631,50 @@ footer {  background-color: #141416;
         &:nth-child(4) {margin: 27px 0 54px 0;}
       }
     }
-    .footerp {
-      .spanp { 
+    .footerp { position: relative;
+      .spanp {  margin-bottom: 60px;
         span { color:#f9f9f9; 
           &::after{content: ""; display: inline-block; width: 2px; height: 17px;
-            background-color: #f9f9f9; margin: 0 10px; position: relative; top:3px; 
+            background-color: #0063E5; margin: 0 10px; position: relative; top:3px; 
           }
           &:nth-child(1)::after  { display: none;}    
              
           &:nth-child(6)::after  { display: none;} 
           
+          
         }
+        .ceoemail { color: #0063E5;}
         p { margin: 27px 0;
           .heih::after {display: none;}
         }
          
       }
-      .cjgroupselect{}
-      .ticking{
-        p{color: #f9f9f9;}
-      }
-      .arrow{
-        i { color: #f9f9f9;}
+      .cjgroupselect{ width: 217px; height: 30px; border-radius: 20px; position: absolute; right:-4px;  top:10px;}
+      .ticking{ display: flex; justify-content: end;  position: absolute; top:60px; right:-56px;
+        .tickingsu{ width: 166px; height: 50px; background-color: #eb8102; border-radius: 30px; display: flex; justify-content: center; align-items: center;
+          p{color: #f9f9f9;}
+        }
+        .arrow{ width: 45px; height: 45px; margin-left: 8px;
+          i { color: #f9f9f9; font-size: 52px;}
+        }
       }
     }
-    .AllRights{ display: flex;
-      span { color: #f9f9f9;}
-  
+    .htd { }
+    .AllRights{ display: flex; justify-content: space-between; padding: 51px 0; 
+      span { color: #f9f9f9; display: flex; justify-content: center; align-items: center; }
+      .yftbox{ display: flex; 
+        span { margin-left: 20px;}
+        .sns { color: #0063E5; display: flex; justify-content: center; align-items: center; }
+        .youtube{ display: flex; justify-content: center; align-items: center;  width: 42px; height: 42px; border-radius: 50%; background-color: #0063E5;
+        a{display: block;
+        i{font-size: 20px;}}}
+        .facebook{display: flex; justify-content: center; align-items: center;  width: 42px; height: 42px; border-radius: 50%; background-color: #0063E5;
+          a{display: block;
+            i{font-size: 20px;}}}
+        .twitter{ display: flex; justify-content: center; align-items: center;  width: 42px; height: 42px; border-radius: 50%; background-color: #0063E5;
+          a{display: block;
+            i{font-size: 20px;}}}
+      }
     }
-  }
-  
+  }  
 }
