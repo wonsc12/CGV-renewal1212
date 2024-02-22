@@ -278,7 +278,7 @@ header .sideM .sidemenu .mater li .mDepth2 li a {
 header .sideM .sidemenu .three2 {
   margin-top: 150px;
 }
-header .sideM .sidemenu .three2 #myFoty {
+header .sideM .sidemenu .three2 #myFoty2 {
   margin-right: 30px;
   z-index: 100;
   opacity: 1;
@@ -286,20 +286,20 @@ header .sideM .sidemenu .three2 #myFoty {
   display: flex;
   align-items: center;
 }
-header .sideM .sidemenu .three2 #myFoty .box4 {
+header .sideM .sidemenu .three2 #myFoty2 .box4 {
   width: 65px;
   height: 38px;
   border-radius: 4px;
   border: 1px solid #adb5bd;
 }
-header .sideM .sidemenu .three2 #myFoty .box5 {
+header .sideM .sidemenu .three2 #myFoty2 .box5 {
   padding-left: 10px;
   width: 150px;
   height: 38px;
   border-radius: 4px;
   border: 1px solid #adb5bd;
 }
-header .sideM .sidemenu .three2 #myFoty #searchBtn {
+header .sideM .sidemenu .three2 #myFoty2 #searchBtn {
   width: 50px;
   height: 38px;
   border-radius: 4px;
@@ -1111,6 +1111,7 @@ footer .centerfooter nav ul li {
   display: flex;
   align-items: center;
   width: 25%;
+  color: #f9f9f9;
 }
 footer .centerfooter nav ul li span {
   line-height: 27px;
@@ -1124,12 +1125,15 @@ footer .centerfooter nav ul:nth-child(2) {
 footer .centerfooter nav ul:nth-child(4) {
   margin: 27px 0 54px 0;
 }
+footer .centerfooter .footerp .spanp span {
+  color: #f9f9f9;
+}
 footer .centerfooter .footerp .spanp span::after {
   content: "";
   display: inline-block;
   width: 2px;
   height: 17px;
-  background-color: #fff;
+  background-color: #f9f9f9;
   margin: 0 10px;
   position: relative;
   top: 3px;
@@ -1137,9 +1141,24 @@ footer .centerfooter .footerp .spanp span::after {
 footer .centerfooter .footerp .spanp span:nth-child(1)::after {
   display: none;
 }
-footer .centerfooter .footerp .spanp span:nth-child(7)::after {
+footer .centerfooter .footerp .spanp span:nth-child(5)::after {
   display: none;
+}
+footer .centerfooter .footerp .spanp span:nth-child(9)::after {
+  display: none;
+}
+footer .centerfooter .footerp .spanp p {
+  margin: 27px 0;
+}
+footer .centerfooter .footerp .ticking p {
+  color: #f9f9f9;
+}
+footer .centerfooter .footerp .arrow i {
+  color: #f9f9f9;
 }
 footer .centerfooter .AllRights {
   display: flex;
+}
+footer .centerfooter .AllRights span {
+  color: #f9f9f9;
 }
