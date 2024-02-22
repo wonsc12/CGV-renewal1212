@@ -1160,12 +1160,14 @@ footer .centerfooter .footerp .spanp p .heih::after {
   display: none;
 }
 footer .centerfooter .footerp .cjgroupselect {
-  width: 217px;
-  height: 30px;
-  border-radius: 20px;
   position: absolute;
   right: -4px;
   top: 10px;
+}
+footer .centerfooter .footerp .cjgroupselect .cjbox {
+  width: 217px;
+  height: 30px;
+  border-radius: 20px;
 }
 footer .centerfooter .footerp .ticking {
   display: flex;

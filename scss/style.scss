@@ -649,7 +649,11 @@ footer {  background-color: #141416;
         }
          
       }
-      .cjgroupselect{ width: 217px; height: 30px; border-radius: 20px; position: absolute; right:-4px;  top:10px;}
+      .cjgroupselect{ position: absolute; right:-4px;  top:10px;
+        .cjbox {width: 217px; height: 30px; border-radius: 20px; 
+
+        }
+      }
       .ticking{ display: flex; justify-content: end;  position: absolute; top:60px; right:-56px;
         .tickingsu{ width: 166px; height: 50px; background-color: #eb8102; border-radius: 30px; display: flex; justify-content: center; align-items: center;
           p{color: #f9f9f9;}
