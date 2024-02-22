@@ -638,11 +638,13 @@ footer {  background-color: #141416;
             background-color: #f9f9f9; margin: 0 10px; position: relative; top:3px; 
           }
           &:nth-child(1)::after  { display: none;}    
-          &:nth-child(5)::after  { display: none;}     
-          &:nth-child(9)::after  { display: none;}     
-        
+             
+          &:nth-child(6)::after  { display: none;} 
+          
         }
-        p { margin: 27px 0;}
+        p { margin: 27px 0;
+          .heih::after {display: none;}
+        }
          
       }
       .cjgroupselect{}

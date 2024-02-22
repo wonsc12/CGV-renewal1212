@@ -1141,14 +1141,14 @@ footer .centerfooter .footerp .spanp span::after {
 footer .centerfooter .footerp .spanp span:nth-child(1)::after {
   display: none;
 }
-footer .centerfooter .footerp .spanp span:nth-child(5)::after {
-  display: none;
-}
-footer .centerfooter .footerp .spanp span:nth-child(9)::after {
+footer .centerfooter .footerp .spanp span:nth-child(6)::after {
   display: none;
 }
 footer .centerfooter .footerp .spanp p {
   margin: 27px 0;
+}
+footer .centerfooter .footerp .spanp p .heih::after {
+  display: none;
 }
 footer .centerfooter .footerp .ticking p {
   color: #f9f9f9;
