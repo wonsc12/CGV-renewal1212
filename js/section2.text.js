@@ -302,8 +302,8 @@ section2date.forEach((element)=>{
                 </div>
                 <div class="heartTicketing">
                   <div class="heartbox">
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span>2.6K</span>
+                    <span class="material-symbols-outlined favo">favorite</span>
+                    <span class="numerk">2.6K</span>
                   </div>
                   <div class="ticketing">
                     <span>예매</span>
@@ -330,30 +330,30 @@ let list3 = "";
 section2date2.forEach((element)=>{
 
     list3 += `<div class="pto">
-                <a href="#"><img class="imgsmall" src="${element.img}" alt="${element.alt}"></a>
-                <div class="age"><img src="${element.age}"></div>
-                <span class="dday"></span>
-                <span class="number">${element.number}</span>
-                <div class="cinema4"><img class="cinema" src="${element.cinema1}"></div>
-                <div class="cinema5"><img class="cinema2" src="${element.cinema2}"></div>
-                <div class="cinema6"><img class="cinema3" src="${element.cinema3}"></div>
-                <div class="text">
-                  <p class="content">${element.content}</p>
-                </div>
-                <div class="heartTicketing">
-                  <div class="heartbox">
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span>2.6K</span>
-                  </div>
-                  <div class="ticketing">
-                    <span>예매</span>
-                  </div>
-                </div>
-                <div class="Reviewt">
-                  <p class="Rev">관람평</p>
-                  <p class="Review">${element.review}</p>
-                </div>
-              </div>`
+    <a href="#"><img class="imgsmall" src="${element.img}" alt="${element.alt}"></a>
+    <div class="age"><img src="${element.age}"></div>
+    <span class="dday"></span>
+    <span class="number">${element.number}</span>
+    <div class="cinema4"><img class="cinema" src="${element.cinema1}"></div>
+    <div class="cinema5"><img class="cinema2" src="${element.cinema2}"></div>
+    <div class="cinema6"><img class="cinema3" src="${element.cinema3}"></div>
+    <div class="text">
+      <p class="content">${element.content}</p>
+    </div>
+    <div class="heartTicketing">
+      <div class="heartbox">
+        <span class="material-symbols-outlined favo">favorite</span>
+        <span class="numerk">2.6K</span>
+      </div>
+      <div class="ticketing">
+        <span>예매</span>
+      </div>
+    </div>
+    <div class="Reviewt">
+      <p class="Rev">관람평</p>
+      <p class="Review">${element.review}</p>
+    </div>
+  </div>`
               
 });
 
@@ -368,30 +368,30 @@ let list4 = "";
 section2date3.forEach((element)=>{
 
     list4 += `<div class="pto">
-                <a href="#"><img class="imgsmall" src="${element.img}" alt="${element.alt}"></a>
-                <div class="age"><img src="${element.age}"></div>
-                <span class="dday"></span>
-                <span class="number">${element.number}</span>
-                <div class="cinema4"><img class="cinema" src="${element.cinema1}"></div>
-                <div class="cinema5"><img class="cinema2" src="${element.cinema2}"></div>
-                <div class="cinema6"><img class="cinema3" src="${element.cinema3}"></div>
-                <div class="text">
-                  <p class="content">${element.content}</p>
-                </div>
-                <div class="heartTicketing">
-                  <div class="heartbox">
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span>2.6K</span>
-                  </div>
-                  <div class="ticketing">
-                    <span>예매</span>
-                  </div>
-                </div>
-                <div class="Reviewt">
-                  <p class="Rev">관람평</p>
-                  <p class="Review">${element.review}</p>
-                </div>
-              </div>`
+    <a href="#"><img class="imgsmall" src="${element.img}" alt="${element.alt}"></a>
+    <div class="age"><img src="${element.age}"></div>
+    <span class="dday"></span>
+    <span class="number">${element.number}</span>
+    <div class="cinema4"><img class="cinema" src="${element.cinema1}"></div>
+    <div class="cinema5"><img class="cinema2" src="${element.cinema2}"></div>
+    <div class="cinema6"><img class="cinema3" src="${element.cinema3}"></div>
+    <div class="text">
+      <p class="content">${element.content}</p>
+    </div>
+    <div class="heartTicketing">
+      <div class="heartbox">
+        <span class="material-symbols-outlined favo">favorite</span>
+        <span class="numerk">2.6K</span>
+      </div>
+      <div class="ticketing">
+        <span>예매</span>
+      </div>
+    </div>
+    <div class="Reviewt">
+      <p class="Rev">관람평</p>
+      <p class="Review">${element.review}</p>
+    </div>
+  </div>`
               
 });
 
@@ -406,30 +406,30 @@ let list5 = "";
 section2date4.forEach((element)=>{
 
     list5 += `<div class="pto">
-                <a href="#"><img class="imgsmall" src="${element.img}" alt="${element.alt}"></a>
-                <div class="age"><img src="${element.age}"></div>
-                <span class="dday"></span>
-                <span class="number">${element.number}</span>
-                <div class="cinema4"><img class="cinema" src="${element.cinema1}"></div>
-                <div class="cinema5"><img class="cinema2" src="${element.cinema2}"></div>
-                <div class="cinema6"><img class="cinema3" src="${element.cinema3}"></div>
-                <div class="text">
-                  <p class="content">${element.content}</p>
-                </div>
-                <div class="heartTicketing">
-                  <div class="heartbox">
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span>2.6K</span>
-                  </div>
-                  <div class="ticketing">
-                    <span>예매</span>
-                  </div>
-                </div>
-                <div class="Reviewt">
-                  <p class="Rev">관람평</p>
-                  <p class="Review">${element.review}</p>
-                </div>
-              </div>`
+    <a href="#"><img class="imgsmall" src="${element.img}" alt="${element.alt}"></a>
+    <div class="age"><img src="${element.age}"></div>
+    <span class="dday"></span>
+    <span class="number">${element.number}</span>
+    <div class="cinema4"><img class="cinema" src="${element.cinema1}"></div>
+    <div class="cinema5"><img class="cinema2" src="${element.cinema2}"></div>
+    <div class="cinema6"><img class="cinema3" src="${element.cinema3}"></div>
+    <div class="text">
+      <p class="content">${element.content}</p>
+    </div>
+    <div class="heartTicketing">
+      <div class="heartbox">
+        <span class="material-symbols-outlined favo">favorite</span>
+        <span class="numerk">2.6K</span>
+      </div>
+      <div class="ticketing">
+        <span>예매</span>
+      </div>
+    </div>
+    <div class="Reviewt">
+      <p class="Rev">관람평</p>
+      <p class="Review">${element.review}</p>
+    </div>
+  </div>`
               
 });
 
