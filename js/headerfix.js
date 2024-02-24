@@ -29,12 +29,12 @@ for(let mm of mainMenu){
 	});
 
 
-	window.addEventListener("scroll",function(){
+	window.addEventListener("scroll",()=>{
 
 		let scTop = window.scrollY;
 		let Start = document.querySelector(".section1").offsetTop;
 	
-		if(scTop >= Start-0 ){
+		if(scTop >= Start+50 ){
 				
 				header.classList.add("fixer");	
 				

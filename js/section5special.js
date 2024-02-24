@@ -29,7 +29,7 @@ specialDate.forEach(function(element){
 
   speciallist += `<div class="text23">
             <div class="src22">
-                <img src=${element.spanSrc}>
+            <a href="#none"><img src=${element.spanSrc}></a>
             </div>
             <div class="text32">
                 <h2>${element.title}</h2>

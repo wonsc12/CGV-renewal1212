@@ -2,13 +2,13 @@ let spanBtn = document.querySelector(".spanBtn");
 let side = document.querySelector(".sideM");
 let btn2 = document.querySelector(".btn2")
 
-spanBtn.addEventListener("click",function(){
+spanBtn.addEventListener("click",()=>{
     side.classList.toggle("move");
     spanBtn.classList.toggle("chg");
 
 
 });
-btn2.addEventListener("click",function(){
+btn2.addEventListener("click",()=>{
     side.classList.toggle("move");
 });
 
@@ -24,7 +24,7 @@ let mDepth2_height = [150,100,100,300,350,250];
 
 
 for(let i=0; i<mater.length; i++){
-    mater[i].addEventListener("click",function(){  //해당하는 1댑스 메뉴를 클릭하면
+    mater[i].addEventListener("click",()=>{  //해당하는 1댑스 메뉴를 클릭하면
         
         if(mater[i].classList.contains("on")){ //클릭한 li태그 1댑스에 클래스 on이 있다면
         //접혀져 있는 메뉴를 눌러야함

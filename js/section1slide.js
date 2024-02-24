@@ -22,7 +22,7 @@ let listview = "";
 listDateview.forEach((element)=>{
 
     listview += `<div class="sildenum">
-                    <a href="#"><img src="${element.img}" alt=""></a>
+                    <a href="#none"><img src="${element.img}" alt=""></a>
                 </div>`
               
 });
