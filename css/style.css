@@ -3,6 +3,18 @@ body {
   height: 80px;
 }
 
+.padding {
+  padding: 107px 0;
+}
+
+.pat {
+  padding-top: 81px;
+}
+
+.patt {
+  padding-top: 107px;
+}
+
 /*
 header
 */
@@ -1119,6 +1131,8 @@ main .mcontainer .section3event .titletext {
 }
 main .mcontainer .section3event .titletext h2 {
   color: #f9f9f9;
+  font-size: 40px;
+  font-weight: bold;
 }
 main .mcontainer .section3event .titletext h3 {
   display: none;
@@ -1127,11 +1141,15 @@ main .mcontainer .section3event .center {
   width: 1106px;
   margin: 0 auto;
   text-align: center;
-  height: 601px;
+  height: 631px;
 }
 main .mcontainer .section3event .center .Eventad > ul {
   display: flex;
   justify-content: center;
+  padding: 27px 0;
+}
+main .mcontainer .section3event .center .Eventad > ul li {
+  font-size: 18px;
 }
 main .mcontainer .section3event .center .Eventad > ul li::after {
   content: "";
@@ -1236,13 +1254,16 @@ main .mcontainer .section3event .center .Eventad .box12 .wide {
 main .mcontainer .section3event .entire {
   position: absolute;
   top: 0;
-  left: calc(50% + 470px);
+  left: calc(50% + 450px);
   display: flex;
   align-items: center;
+  width: 100%;
 }
 main .mcontainer .section3event .entire h3 {
   color: #f9f9f9;
   position: relative;
+  font-size: 22px;
+  font-weight: bold;
 }
 main .mcontainer .section3event .entire h3:after {
   content: "";
@@ -1344,8 +1365,10 @@ main .mcontainer .section8000 .count .pointbg .cgvcinema span {
 main .mcontainer .section5 {
   background-color: #141416;
   position: relative;
+  padding-bottom: 4px;
 }
 main .mcontainer .section5 .titletext {
+  padding-bottom: 27px;
   width: 1106px;
   margin: 0 auto;
   display: flex;
@@ -1353,6 +1376,8 @@ main .mcontainer .section5 .titletext {
 }
 main .mcontainer .section5 .titletext h2 {
   color: #f9f9f9;
+  font-size: 40px;
+  font-weight: bold;
 }
 main .mcontainer .section5 .titletext h3 {
   color: #f9f9f9;
@@ -1426,14 +1451,15 @@ main .mcontainer .section5 .center .specialbox2 .text23 .text32 h2:last-child {
 }
 main .mcontainer .section5 .center .entire {
   position: absolute;
-  top: -8px;
-  left: calc(50% + 470px);
+  top: 114px;
+  left: calc(50% + 440px);
   display: flex;
   align-items: center;
 }
 main .mcontainer .section5 .center .entire h3 {
   color: #f9f9f9;
-  position: relative;
+  font-weight: bold;
+  font-size: 22px;
 }
 main .mcontainer .section5 .center .entire h3:after {
   content: "";
@@ -1468,6 +1494,8 @@ main .mcontainer .section6 .center6 .titletext {
 }
 main .mcontainer .section6 .center6 .titletext .title {
   color: #f9f9f9;
+  font-size: 40px;
+  font-weight: bold;
 }
 main .mcontainer .section6 .center6 .titletext h3 {
   display: none;
@@ -1479,6 +1507,7 @@ main .mcontainer .section6 .center6 .menuflex {
 main .mcontainer .section6 .center6 .menuflex .tabMenu {
   width: 40%;
   display: flex;
+  padding: 41px 0;
 }
 main .mcontainer .section6 .center6 .menuflex .tabMenu li {
   width: 120px;
@@ -1543,14 +1572,15 @@ main .mcontainer .section6 .center6 .Wrap .tabCont > div.active {
 }
 main .mcontainer .section6 .center6 .entire {
   position: absolute;
-  top: -3px;
-  left: calc(50% + 470px);
+  top: 197px;
+  left: calc(50% + 445px);
   display: flex;
   align-items: center;
 }
 main .mcontainer .section6 .center6 .entire h3 {
   color: #f9f9f9;
   position: relative;
+  font-size: 22px;
 }
 main .mcontainer .section6 .center6 .entire h3:after {
   content: "";
@@ -1779,6 +1809,7 @@ main .mcontainer .section8 .center8 {
 main .mcontainer .section8 .center8 .center8h2 {
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
 }
 main .mcontainer .section8 .center8 .center8h2 h2 {
   font-size: 42px;
@@ -1844,16 +1875,64 @@ main .mcontainer .section8 .center8 .question .questionm > li .mDepthq li a {
 main .mcontainer .section8 .center8 .question .questionm > li.on:after {
   transform: none;
 }
-main .mcontainer .section9 .poster {
+main .mcontainer .section9 {
+  position: relative;
+  background-color: #141416;
+}
+main .mcontainer .section9 .section9center .clockcount .poster {
   width: 100%;
   height: 300px;
   margin: 0 auto;
 }
-main .mcontainer .section9 .poster img {
+main .mcontainer .section9 .section9center .clockcount .poster img {
   width: 100%;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+main .mcontainer .section9 .section9center .clockcount .abso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 46%;
+  left: calc(50% + 25px);
+  width: 231px;
+  height: 40px;
+  background-color: #fff;
+}
+main .mcontainer .section9 .section9center .clockcount .abso p {
+  font-size: 30px;
+}
+main .mcontainer .section9 .section9center .count9box {
+  width: 1106px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+main .mcontainer .section9 .section9center .count9box .one .text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .mcontainer .section9 .section9center .count9box .one .text p {
+  color: #fff;
+  font-size: 40px;
+}
+main .mcontainer .section9 .section9center .count9box span {
+  color: #fff;
+  font-size: 70px;
+}
+main .mcontainer .section9 .section9center .count9box > div {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 100%;
+  background-color: #000;
+  border: 2px solid #fff;
 }
 
 /*
@@ -1862,7 +1941,7 @@ main .mcontainer .section9 .poster img {
 */
 footer .fohr {
   background-color: #232324;
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 footer .fohr .centerfooter {
   width: 1106px;

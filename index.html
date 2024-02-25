@@ -24,6 +24,7 @@
   <script src="./js/clock.js" defer></script>
   
   
+  
 </head>
 <body>
   <form id="myFoty" action="#" method="">
@@ -218,7 +219,7 @@
           </ul>
         </div>
       </section>
-      <section class="section2">
+      <section class="section2 ">
         <div class="center2">
           <div class="boxoffice">
             <div class="movie">
@@ -489,14 +490,14 @@
           </div>
         </div>
       </section>
-      <section class="section3event">
+      <section class="section3event ">
         <div class="titletext">
           <h2>EVENT</h2>
           <h3>0</h3>
         </div>
         <div class="center">
           <div class="Eventad">
-            <ul class="eventbts">
+            <ul class="eventbts padding27">
               <li class="on" data-portfolio="*"><a href="#">전체</a></li>
               <li data-portfolio=".tick"><a href="#">영화예매</a></li>
               <li data-portfolio=".club"><a href="#">멤버쉽/클럽</a></li>
@@ -706,7 +707,7 @@
           <span class="material-symbols-outlined">add</span>  
         </div></a>
       </section>
-      <section class="section4">
+      <section class="section4 padding">
         <div class="center">
           <div class="box5">
             <div class="imageb">
@@ -740,7 +741,7 @@
           </div>
         </div>
       </section>
-      <section class="section8000">
+      <section class="section8000 ">
         <div class="count">
           <div class="picturep">
             <a href="#none"><img src="images/point.jpg" alt="point"></a>
@@ -758,7 +759,7 @@
           </div>
         </div>
       </section>
-      <section class="section5 specialh">
+      <section class="section5 specialh patt">
         <div class="titletext">
           <h2>특별관</h2>
           <h3>0</h3>
@@ -785,7 +786,7 @@
           </div></a>
         </div>
       </section>
-      <section class="section6">
+      <section class="section6 padding">
         <div class="center6">
           <div class="titletext">
             <h2 class="title">BEST ITEM</h2>
@@ -874,7 +875,7 @@
           </div></a>
         </div>
       </section>
-      <section class="section7">
+      <section class="section7 ">
         <div class="center8">
           <div class="bigbox">
             <div class="noticebox">
@@ -959,7 +960,7 @@
           </div>
         </div>
       </section>
-      <section class="section8">
+      <section class="section8 padding">
         <div class="center8">
           <div class="center8h2">
             <h2>자주묻는질문</h2>
@@ -997,15 +998,50 @@
           </div>  
         </div>
       </section>
-      <section class="section9">
-        <div class="clockcount"></div>
-        <div class="poster">
-          <a href="#none"><img src="./images/DMZanimals_980180 1 (1).jpg" alt="DMZanimals"></a>
+      <section class="section9 ">
+        <div class="section9center">
+          <div class="clockcount">
+            <div class="poster">
+              <a href="#none"><img src="./images/DMZanimals_980180 1 (1).jpg" alt="DMZanimals"></a>
+            </div>
+            <div class="abso">
+              <p>6월25일 개봉</p>
+            </div>
+          </div>
+          <div class="count9box">
+            <div class="one">
+                <div class="text">
+                    <p class="subView">00<p>
+                    <p class="subText">Days<p>
+                </div> 
+            </div>
+            <span>:</span>
+            <div class="one">
+                <div class="text">
+                    <p class="subView">00<p>
+                    <p class="subText">Hours<p> 
+                </div>
+            </div>
+            <span>:</span>
+            <div class="one">
+                <div class="text">
+                    <p class="subView">00<p>
+                    <p class="subText">Minutes<p>
+                </div>
+            </div>
+            <span>:</span>
+            <div class="one">
+                <div class="text">
+                    <p class="subView">00<p>
+                    <p class="subText">Seconds<p>
+                </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
   </main>
-  <footer>
+  <footer >
     <div class="fohr">
       <div class="centerfooter">
         <nav>
@@ -1098,6 +1134,12 @@
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./js/isotope.pkgd.min.js"></script>
+  <script src="./js/countDown.js"></script>
+  <script>
+    //목적지 날짜,남은시간 출력해줄 태그를 감싸는 부모 ,실제시간 출력태그
+    countDownInit("2024-06-25 00:00:00",".one",".subView",".box4 .first a");
+    //카운트 다운 기능 함수 호출
+  </script>
 </body>
 </html>
 
