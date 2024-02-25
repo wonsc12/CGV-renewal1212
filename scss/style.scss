@@ -7,15 +7,15 @@ header
 */
 #myFoty { margin-right: 30px; position: fixed;  left: calc(50% + 0px); z-index: 100; 
   transform:translateX(-50%);top:79px; display: flex; align-items: center;
-  .box4 { position: relative; height: 3 50px; display: none; width: 1920px; background-color: #eb8102;
-    .bbox{ position: absolute ; right:  calc(50% + -554px); display: flex; align-items: center;
+  .box4 { position: relative; height: 350px; display: none; width: 1920px; background-color: #eb8102;
+    .bbox{ position: absolute ; top:12px; right:  calc(50% + -554px); display: flex; align-items: center;
       .box5 {  padding-left: 10px; width:1037px; height: 38px;border-radius: 4px; border: 1px solid #adb5bd;}
        #searchBtn {  width: 50px;  height: 38px;border-radius: 4px; background-color:#adb5bd ; border: none;}
     }
     .title{ display: flex; justify-content: start; margin: 0 auto; width: 1106px; margin-top: 67px;
         h2{ color: #fff6; font-size: 22px; margin-right: 20px;}
        }
-    .center { display: flex; margin: 50px auto; width: 1106px; justify-content: start; 
+    .center { display: flex; margin: 30px auto; width: 1106px; justify-content: start; 
        
       .piccse { margin-right: 30px; width: 142px; height: 201px; overflow: hidden; border-radius: 20px;
         img {  width: 100% ; height: 100%; transition: all 1s; 
@@ -96,7 +96,7 @@ header{
         justify-content: space-between;
         
       }
-      nav {
+      nav { 
         width:61%; margin:0 auto; 
         >ul { 
           >li{ 

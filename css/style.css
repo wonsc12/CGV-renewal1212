@@ -30,13 +30,14 @@ header
 }
 #myFoty .box4 {
   position: relative;
-  height: 3 50px;
+  height: 350px;
   display: none;
   width: 1920px;
   background-color: #eb8102;
 }
 #myFoty .box4 .bbox {
   position: absolute;
+  top: 12px;
   right: calc(50% - 554px);
   display: flex;
   align-items: center;
@@ -69,7 +70,7 @@ header
 }
 #myFoty .box4 .center {
   display: flex;
-  margin: 50px auto;
+  margin: 30px auto;
   width: 1106px;
   justify-content: start;
 }

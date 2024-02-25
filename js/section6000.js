@@ -1,6 +1,6 @@
 let countValue = [
   {
-  plus:30,
+  plus:60,
   tag:".count1 p",
   complete:6000,
   loop:50   
