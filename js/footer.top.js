@@ -7,7 +7,7 @@
     
     // let scrollAmt = window.pageYOffset;
     let scrollAmt =window.scrollY;
-    console.log(scrollAmt);
+    // console.log(scrollAmt);
     /*
     스크롤양(scrollAmt)이 300보다크다면
     btt에 클래스명 active추가

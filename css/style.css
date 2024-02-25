@@ -565,7 +565,6 @@ main .mcontainer .section1 .circleBtn li:hover a {
 }
 main .mcontainer .section2 {
   background-color: #141416;
-  position: relative;
   padding: 135px 0;
 }
 main .mcontainer .section2 .center2 {
@@ -575,12 +574,13 @@ main .mcontainer .section2 .center2 {
 main .mcontainer .section2 .center2 .boxoffice {
   width: 100%;
   margin: 0px auto;
+  position: relative;
 }
 main .mcontainer .section2 .center2 .boxoffice .movie {
   text-align: center;
   padding-bottom: 54px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 main .mcontainer .section2 .center2 .boxoffice .movie .zero {
   opacity: 0;
@@ -590,10 +590,32 @@ main .mcontainer .section2 .center2 .boxoffice .movie h2 {
   font-size: 32px;
   font-weight: bold;
 }
-main .mcontainer .section2 .center2 .boxoffice .movie .hcolor p {
-  width: 100%;
-  color: #f9f9f9;
-  line-height: 32px;
+main .mcontainer .section2 .center2 .boxoffice .cut {
+  position: absolute;
+  top: 46px;
+  right: 0;
+}
+main .mcontainer .section2 .center2 .boxoffice .cut .hcolor {
+  display: flex;
+  justify-content: end;
+}
+main .mcontainer .section2 .center2 .boxoffice .cut .hcolor .current_time {
+  display: flex;
+}
+main .mcontainer .section2 .center2 .boxoffice .cut .hcolor .current_time > div {
+  font-size: 20px;
+  color: #fff;
+}
+main .mcontainer .section2 .center2 .boxoffice .cut .hcolor .days {
+  display: flex;
+}
+main .mcontainer .section2 .center2 .boxoffice .cut .hcolor .days > div {
+  font-size: 20px;
+  color: #fff;
+}
+main .mcontainer .section2 .center2 .boxoffice .cut .hcolor .days span {
+  color: #fff;
+  font-size: 20px;
 }
 main .mcontainer .section2 .center2 .boxoffice .smallslider {
   position: relative;
@@ -783,7 +805,7 @@ main .mcontainer .section2 .center2 .boxoffice .smallslider .btns2 .nextBtn2 i {
 }
 main .mcontainer .section2 .center2 .boxoffice .search_text {
   position: absolute;
-  top: 86px;
+  top: 4px;
   left: calc(50% + 367px);
   display: flex;
   align-items: center;
@@ -811,6 +833,9 @@ main .mcontainer .section2 .center2 .boxoffice .search_text span {
 main .mcontainer .section2 .center2 .boxoffice .search_text:hover h3:after {
   transform: none;
 }
+main .mcontainer .section2 .center2 .boxoffice2 {
+  position: relative;
+}
 main .mcontainer .section2 .center2 .boxoffice2 .movie2 {
   text-align: center;
   padding: 135px 0 54px 0;
@@ -824,11 +849,35 @@ main .mcontainer .section2 .center2 .boxoffice2 .movie2 h2 {
   color: #f9f9f9;
   font-size: 32px;
   font-weight: bold;
-}
-main .mcontainer .section2 .center2 .boxoffice2 .movie2 .hcolor p {
   width: 100%;
-  color: #f9f9f9;
-  line-height: 32px;
+  margin: 0 auto;
+}
+main .mcontainer .section2 .center2 .boxoffice2 .movie2 .cut2 {
+  position: absolute;
+  top: 186px;
+  right: 0;
+}
+main .mcontainer .section2 .center2 .boxoffice2 .movie2 .cut2 .hcolor {
+  display: flex;
+  justify-content: end;
+}
+main .mcontainer .section2 .center2 .boxoffice2 .movie2 .cut2 .hcolor .current_time {
+  display: flex;
+}
+main .mcontainer .section2 .center2 .boxoffice2 .movie2 .cut2 .hcolor .current_time > div {
+  font-size: 20px;
+  color: #fff;
+}
+main .mcontainer .section2 .center2 .boxoffice2 .movie2 .cut2 .hcolor .days {
+  display: flex;
+}
+main .mcontainer .section2 .center2 .boxoffice2 .movie2 .cut2 .hcolor .days > div {
+  font-size: 20px;
+  color: #fff;
+}
+main .mcontainer .section2 .center2 .boxoffice2 .movie2 .cut2 .hcolor .days span {
+  color: #fff;
+  font-size: 20px;
 }
 main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 {
   position: relative;
@@ -1030,7 +1079,7 @@ main .mcontainer .section2 .center2 .boxoffice2 .smallslider2 .btns22 .nextBtn22
 }
 main .mcontainer .section2 .center2 .boxoffice2 .search_text {
   position: absolute;
-  top: 698px;
+  top: 139px;
   left: calc(50% + 367px);
   display: flex;
   align-items: center;
@@ -1137,6 +1186,10 @@ main .mcontainer .section3event .center .Eventad .box12 .all .bg p {
 main .mcontainer .section3event .center .Eventad .box12 .all img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
   border-radius: 8px;
 }
 main .mcontainer .section3event .center .Eventad .box12 .small {
@@ -1705,9 +1758,16 @@ main .mcontainer .section7 .center8 .bigbox .bugs {
   width: 22%;
   height: 272px;
 }
-main .mcontainer .section7 .center8 .bigbox .bugs img {
+main .mcontainer .section7 .center8 .bigbox .bugs .cont7 .slideWrap .swiper-wrapper .swiper-slide {
+  width: 204px;
+  height: 272px;
+}
+main .mcontainer .section7 .center8 .bigbox .bugs .cont7 .slideWrap .swiper-wrapper .swiper-slide img {
   width: 100%;
   height: 100%;
+  background: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 main .mcontainer .section8 {
   background-color: #141416;
@@ -1872,29 +1932,10 @@ footer .fohr .centerfooter .footerp .cjgroupselect {
   display: flex;
 }
 footer .fohr .centerfooter .footerp .cjgroupselect .cjbb #cjbox {
+  padding-left: 15px;
   width: 217px;
   height: 38px;
   border-radius: 20px;
-}
-footer .fohr .centerfooter .footerp .cjgroupselect .cjbb #cjbox option:nth-child(2) {
-  font-weight: bold;
-  color: #6e6e6e;
-}
-footer .fohr .centerfooter .footerp .cjgroupselect .cjbb #cjbox option:nth-child(4) {
-  font-weight: bold;
-  color: #6e6e6e;
-}
-footer .fohr .centerfooter .footerp .cjgroupselect .cjbb #cjbox option:nth-child(8) {
-  font-weight: bold;
-  color: #6e6e6e;
-}
-footer .fohr .centerfooter .footerp .cjgroupselect .cjbb #cjbox option:nth-child(11) {
-  font-weight: bold;
-  color: #6e6e6e;
-}
-footer .fohr .centerfooter .footerp .cjgroupselect .cjbb #cjbox option:nth-child(17) {
-  font-weight: bold;
-  color: #6e6e6e;
 }
 footer .fohr .centerfooter .footerp .cjgroupselect #searchBtn2 {
   width: 50px;

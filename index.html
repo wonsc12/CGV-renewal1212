@@ -7,20 +7,21 @@
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <script src="./js/headerfix.js" defer></script>
   <script src="./js/section1slide.js" defer></script>
   <script src="./js/headerside.js" defer></script>
   <script src="./js/section2.slide.js" defer></script>
   <script src="./js/section2.text.js" defer></script>
-  
   <script src="./js/section2gally.js" defer></script>
-  <script src="./js/isotope.pkgd.min.js" defer></script>
   <script src="./js/section3event.js" defer></script>
   <script src="./js/section5special.js" defer></script>
   <script src="./js/section6text.js" defer></script>
   <script src="./js/section8.accodian.js" defer></script>
   <script src="./js/footer.top.js" defer></script>
   <script src="./js/section6000.js" defer></script>
+  <script src="./js/section7.sideslide.js" defer></script>
+  <script src="./js/clock.js" defer></script>
   
   
 </head>
@@ -221,14 +222,24 @@
         <div class="center2">
           <div class="boxoffice">
             <div class="movie">
-              <p class="zero">0</p>
               <h2>박스오피스</h2>
-              <div class="hcolor">
-                <p>시간</p>
-              </div>
             </div>
-            
-            
+            <div class="cut">
+              <div class="hcolor">
+                <div class="current_time">
+                  <div class="month">00</div>
+                  <span>.</span>
+                  <div class="date">00</div>
+                </div>
+                <div class="days">
+                  <div class="hours">00</div>
+                  <span>:</span>
+                  <div class="minutes">00</div>
+                  <span>:</span>
+                  <div class="seconds">00</div> 
+                </div>
+              </div>
+            </div>   
             <div class="smallslider">
               <div class="view">
                 <div class="pto3">
@@ -344,11 +355,23 @@
           </div>
           <div class="boxoffice2">
             <div class="movie2">
-              <p class="zero">0</p>
               <h2>상영예정작</h2>
-              <div class="hcolor">
-                <p>시간</p>
-              </div>
+              <div class="cut2">
+                <div class="hcolor">
+                  <div class="current_time">
+                    <div class="month2">00</div>
+                    <span>.</span>
+                    <div class="date2">00</div>
+                  </div>
+                  <div class="days">
+                    <div class="hours2">00</div>
+                    <span>:</span>
+                    <div class="minutes2">00</div>
+                    <span>:</span>
+                    <div class="seconds2">00</div> 
+                  </div>
+                </div>
+              </div>   
             </div>
             
             <div class="smallslider2">
@@ -914,7 +937,24 @@
               
             </div>
             <div class="bugs">
-              <a href="#none"><img src="./images/226x259.png" alt="226x259"></a>
+              <div class="cont7 section">
+                <!-- Slider main container -->
+                <div class="slideWrap swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                  <!-- Slides -->
+                    <div class="swiper-slide s1">
+                      <img src="./images/226x259.png" alt="">
+                    </div>
+                    <div class="swiper-slide s2">
+                      <img src="./images/226x2592.png" alt="">
+                    </div>
+                    <div class="swiper-slide s3">
+                      <img src="./images/CGV_BUGS_226x259.png" alt="">
+                    </div>    
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1001,21 +1041,32 @@
           <div class="cjgroupselect">
             <form action="#">
               <div class="cjbb">
+                
                 <select name="" id="cjbox">
-                  <option value=""></option>
-                  <option value="">Cj 주식회사</option>
-                  <option value="">CJ 제일제당</option>
-                  <option value="">CJ 푸드빌</option>
-                  <option value="">CJ 프레시웨이</option>
-                  <option value="">CJ 제일제당 BIO사업부문</option>
-                  <option value="">CJ Feed&Card</option>
-                  <option value="">CJ 대한통운</option>
-                  <option value="">CJ 대한통운 건설부문</option>
-                  <option value="">CJ 올리브영</option>
-                  <option value="">CJ 올리브네트윅스</option>
-                  <option value="">CJ ENM커버스부문</option>
-                  <option value="">CJ ENM엔터테인먼트부문</option>
-                  <option value="">CJ CGV</option>
+                  <option value="계열사 바로가기">계열사 바로가기</option>
+                  <optgroup label="cj그룹">
+                    <option value="cjco">Cj 주식회사</option>
+                  </optgroup>
+                  <optgroup label="식품&식품서비스">
+                    <option value="cj">CJ 제일제당</option>
+                    <option value="cjfood">CJ 푸드빌</option>
+                    <option value="cjfresh">CJ 프레시웨이</option>
+                  </optgroup>
+                  <optgroup label="생명공학">
+                    <option value="cjbio">CJ 제일제당 BIO사업부문</option>
+                    <option value="cjfeed">CJ Feed&Card</option>
+                  </optgroup>
+                  <optgroup label="물류&신유통">
+                    <option value="cjd">CJ 대한통운</option>
+                    <option value="cjd2">CJ 대한통운 건설부문</option>
+                    <option value="olive">CJ 올리브영</option>
+                    <option value="olivenet">CJ 올리브네트윅스</option>
+                    <option value="cjemn">CJ ENM커버스부문</option>
+                  </optgroup>
+                  <optgroup label="엔터테인먼트&미디어">
+                    <option value="cjenter">CJ ENM엔터테인먼트부문</option>
+                    <option value="cjcgv">CJ CGV</option>
+                  </optgroup>
                 </select>
               </div>
             </form>
@@ -1031,7 +1082,6 @@
         </div>
       </div>
     </div>
-    
     <div class="foorbg">
       <div class="AllRights">
         <span>&copy;CJ CGV. All Rights Reserved</span>
@@ -1046,6 +1096,9 @@
     </div>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/isotope.pkgd.min.js"></script>
+</body>
+</html>
 
 
- 
