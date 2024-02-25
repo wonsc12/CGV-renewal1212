@@ -510,7 +510,7 @@ main .mcontainer .section1 .silder .viewqer .sildenum a img {
   width: 100%;
   height: 100%;
 }
-main .mcontainer .section1 .btns .prevBtn {
+main .mcontainer .section1 .btnsqw .prevBtnqw {
   position: absolute;
   background: url(../images/leftBtn.png) no-repeat;
   width: 120px;
@@ -521,10 +521,10 @@ main .mcontainer .section1 .btns .prevBtn {
   z-index: 50;
   opacity: 0.6;
 }
-main .mcontainer .section1 .btns .prevBtn:hover {
+main .mcontainer .section1 .btnsqw .prevBtnqw:hover {
   opacity: 1;
 }
-main .mcontainer .section1 .btns .nextBtn {
+main .mcontainer .section1 .btnsqw .nextBtnqw {
   position: absolute;
   background: url(../images/rightBtn.png) no-repeat;
   width: 120px;
@@ -535,10 +535,10 @@ main .mcontainer .section1 .btns .nextBtn {
   z-index: 50;
   opacity: 0.6;
 }
-main .mcontainer .section1 .btns .nextBtn:hover {
+main .mcontainer .section1 .btnsqw .nextBtnqw:hover {
   opacity: 1;
 }
-main .mcontainer .section1 .circleBtn {
+main .mcontainer .section1 .circleBtn3 {
   z-index: 4;
   display: flex;
   position: absolute;
@@ -547,12 +547,12 @@ main .mcontainer .section1 .circleBtn {
   transform: translateX(-50%);
   z-index: 10;
 }
-main .mcontainer .section1 .circleBtn .on a {
+main .mcontainer .section1 .circleBtn3 .on a {
   background-color: #f9f9f9;
   width: 250px;
   height: 2;
 }
-main .mcontainer .section1 .circleBtn li a {
+main .mcontainer .section1 .circleBtn3 li a {
   display: block;
   width: 250px;
   height: 2px;
@@ -560,7 +560,7 @@ main .mcontainer .section1 .circleBtn li a {
   margin: 5px 3px;
   transition: all 0.5s;
 }
-main .mcontainer .section1 .circleBtn li:hover a {
+main .mcontainer .section1 .circleBtn3 li:hover a {
   background-color: #f9f9f9;
 }
 main .mcontainer .section2 {

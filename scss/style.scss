@@ -320,18 +320,18 @@ main {
           }
         }
       }
-      .btns {
+      .btnsqw {
        
-        .prevBtn{position: absolute; background:url(../images/leftBtn.png)no-repeat; width: 120px; height: 120px; 
+        .prevBtnqw{position: absolute; background:url(../images/leftBtn.png)no-repeat; width: 120px; height: 120px; 
            right: calc(50% + 729px); top:50%; transform: translateY(-50%);  z-index: 50; opacity: 0.6;
         &:hover {opacity: 1; }
         }
            
-        .nextBtn{position: absolute; background: url(../images/rightBtn.png)no-repeat; width: 120px; height: 120px; 
+        .nextBtnqw{position: absolute; background: url(../images/rightBtn.png)no-repeat; width: 120px; height: 120px; 
           left: calc(50% + 807px); top:50%; transform: translateY(-50%); z-index: 50; opacity: 0.6;
         &:hover {opacity: 1; }}     
       }
-      .circleBtn{ z-index: 4; display: flex; position: absolute; left: 50%;bottom: 40px; transform: translateX(-50%); z-index: 10;
+      .circleBtn3{ z-index: 4; display: flex; position: absolute; left: 50%;bottom: 40px; transform: translateX(-50%); z-index: 10;
         .on{
             a{background-color:#f9f9f9 ;width: 250px;height: 2 ; 
             }

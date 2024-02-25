@@ -19,7 +19,7 @@ window.addEventListener("scroll",function(){
 
   let scTop = window.scrollY;
   
-  if(scTop >= contStart-300){
+  if(scTop >= contStart-400){
 
       if(moveCheck == true){
 
@@ -54,3 +54,5 @@ let autoCount = setInterval(function(){
   }
 },speed);
 }
+
+  

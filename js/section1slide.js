@@ -34,17 +34,17 @@ viewqer.innerHTML = listview;
 
  //왼쪽버튼 대상 
                     
- const prevBtn = document.querySelector(".prevBtn");
+ const prevBtnqw = document.querySelector(".prevBtnqw");
 
  // 오른쪽 버튼 대상
- const nextBtn = document.querySelector(".nextBtn");
+ const nextBtnqw = document.querySelector(".nextBtnqw");
 
  // 슬라이드 화면들 선택
  const silderView = document.querySelectorAll(".viewqer > .sildenum");
 
  // 하단 동그라미 버튼들
 
- const circleBtn = document.querySelectorAll(".circleBtn > li");   
+ const circleBtnqw = document.querySelectorAll(".circleBtn3 > li");   
 
  // silder 는 버튼 이랑 동그라미 까지 다 포함되어 있음
  const silderWrap = document.querySelector(".silder");
@@ -54,22 +54,22 @@ viewqer.innerHTML = listview;
 
    //이전버튼 클릭시 
 
- prevBtn.addEventListener("click",()=>{
+ prevBtnqw.addEventListener("click",()=>{
      prevCheck(); //이전버튼 조건문 체크 함수 호출
      silderStart(); //슬라이드 화면 전환 및 동그라미 버튼 활성비활성 함수 호출
  });
 
 
  //이후 버튼 클릭시
- nextBtn.addEventListener("click",()=>{
+ nextBtnqw.addEventListener("click",()=>{
     nextCheck();
     silderStart(); //슬라이드 화면 전환 및 동그라미 버튼 활성비활성 함수 호출
  });  
 
  // 동그라미 버튼들 클릭시
- for(let j=0; j < circleBtn.length; j++){
+ for(let j=0; j < circleBtnqw.length; j++){
      
-     circleBtn[j].addEventListener("click",(e)=>{
+     circleBtnqw[j].addEventListener("click",(e)=>{
          e.preventDefault(); 
          sNumber = j; //클릭한 동그라미 버튼 순번값을 슬라이드 순번값으로 넣어줌
          silderStart(); //슬라이드 화면 동작함수 호출
@@ -129,13 +129,13 @@ viewqer.innerHTML = listview;
                  
  // 슬라이드 나타나고 사라지는  & 동그라미버튼 활성비활성 함수구간
  function silderStart(){
-     for(let i = 0; i < circleBtn.length; i++){
-         circleBtn[i].classList.remove("on");
+     for(let i = 0; i < circleBtnqw.length; i++){
+         circleBtnqw[i].classList.remove("on");
          silderView[i].style.opacity = 0;
          silderView[i].style.zIndex = 2;
      }
 
-     circleBtn[sNumber].classList.add("on");
+     circleBtnqw[sNumber].classList.add("on");
      silderView[sNumber].style.opacity = 1;     //z indent ,opacity 단위없음
      silderView[sNumber].style.zIndex = 3;
      
