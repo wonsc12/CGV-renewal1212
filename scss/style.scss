@@ -12,8 +12,8 @@ header
       .box5 {  padding-left: 10px; width:1037px; height: 38px;border-radius: 4px; border: 1px solid #adb5bd;}
        #searchBtn {  width: 50px;  height: 38px;border-radius: 4px; background-color:#adb5bd ; border: none;}
     }
-    .title{ display: flex; justify-content: center;  width: 1106px; margin-top: 67px;
-        h2{ color: #fff6; font-size: 22px; margin-left: 10px;}
+    .title{ display: flex; justify-content: start; margin: 0 auto; width: 1106px; margin-top: 67px;
+        h2{ color: #fff6; font-size: 22px; margin-right: 20px;}
        }
     .center { display: flex; margin: 50px auto; width: 1106px; justify-content: start; 
        
@@ -417,6 +417,12 @@ main {
     
                   .age { position: absolute; top:25px ;right: calc(50% - 107px);
                     img{width: 30px; height:30px;}  
+                  }
+                  .one2{ width: 30px;height: 30px; position: absolute; top:45px ;right: calc(50% - 107px);
+                    text{
+                      .subView{}
+                      .subText{}
+                    }
                   }
                     
                   .number{position: absolute; bottom: 0; left: 5px; color: #f9f9f9; font-size: 45px; font-family: "Shrikhand", serif;}

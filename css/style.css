@@ -57,14 +57,15 @@ header
 }
 #myFoty .box4 .title {
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  margin: 0 auto;
   width: 1106px;
   margin-top: 67px;
 }
 #myFoty .box4 .title h2 {
   color: rgba(255, 255, 255, 0.4);
   font-size: 22px;
-  margin-left: 10px;
+  margin-right: 20px;
 }
 #myFoty .box4 .center {
   display: flex;
@@ -753,6 +754,13 @@ main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .ag
 main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .age img {
   width: 30px;
   height: 30px;
+}
+main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .one2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 45px;
+  right: calc(50% - 107px);
 }
 main .mcontainer .section2 .center2 .boxoffice .smallslider .view .pto3 .pto .number {
   position: absolute;
