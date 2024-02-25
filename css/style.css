@@ -30,7 +30,10 @@ header
 }
 #myFoty .box4 {
   position: relative;
+  height: 3 50px;
   display: none;
+  width: 1920px;
+  background-color: #eb8102;
 }
 #myFoty .box4 .bbox {
   position: absolute;
@@ -51,6 +54,80 @@ header
   border-radius: 4px;
   background-color: #adb5bd;
   border: none;
+}
+#myFoty .box4 .title {
+  display: flex;
+  justify-content: center;
+  width: 1106px;
+  margin-top: 67px;
+}
+#myFoty .box4 .title h2 {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 22px;
+  margin-left: 10px;
+}
+#myFoty .box4 .center {
+  display: flex;
+  margin: 50px auto;
+  width: 1106px;
+  justify-content: start;
+}
+#myFoty .box4 .center .piccse {
+  margin-right: 30px;
+  width: 142px;
+  height: 201px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+#myFoty .box4 .center .piccse img {
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+}
+#myFoty .box4 .center .specialboxse2 {
+  width: 27%;
+  height: 201px;
+}
+#myFoty .box4 .center .specialboxse2 .text23sear {
+  display: flex;
+  height: 23.7%;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #adb5bd;
+  align-items: center;
+  justify-content: center;
+  background-color: #eb8102;
+  position: relative;
+}
+#myFoty .box4 .center .specialboxse2 .text23sear .srcse22 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 30;
+  opacity: 0;
+}
+#myFoty .box4 .center .specialboxse2 .text23sear .srcse22 img {
+  width: 100%;
+  height: 100%;
+}
+#myFoty .box4 .center .specialboxse2 .text23sear .textse32 {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 29;
+}
+#myFoty .box4 .center .specialboxse2 .text23sear .textse32 h2 {
+  color: #f9f9f9;
+}
+#myFoty .box4 .center .specialboxse2 .text23sear .textse32 h2:last-child {
+  width: 220px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
 }
 
 #myFoty.on {
@@ -198,8 +275,8 @@ header .container .center .three.on2 .login .searcgs {
 }
 header .container .center .spanBtn {
   position: absolute;
-  right: 234px;
-  top: 43px;
+  left: calc(50% + 600px);
+  top: 42px;
   transform: translateY(-50%);
   display: block;
 }

@@ -7,10 +7,39 @@ header
 */
 #myFoty { margin-right: 30px; position: fixed;  left: calc(50% + 0px); z-index: 100; 
   transform:translateX(-50%);top:79px; display: flex; align-items: center;
-  .box4 { position: relative; display: none; 
+  .box4 { position: relative; height: 3 50px; display: none; width: 1920px; background-color: #eb8102;
     .bbox{ position: absolute ; right:  calc(50% + -554px); display: flex; align-items: center;
       .box5 {  padding-left: 10px; width:1037px; height: 38px;border-radius: 4px; border: 1px solid #adb5bd;}
        #searchBtn {  width: 50px;  height: 38px;border-radius: 4px; background-color:#adb5bd ; border: none;}
+    }
+    .title{ display: flex; justify-content: center;  width: 1106px; margin-top: 67px;
+        h2{ color: #fff6; font-size: 22px; margin-left: 10px;}
+       }
+    .center { display: flex; margin: 50px auto; width: 1106px; justify-content: start; 
+       
+      .piccse { margin-right: 30px; width: 142px; height: 201px; overflow: hidden; border-radius: 20px;
+        img {  width: 100% ; height: 100%; transition: all 1s; 
+          }
+          
+      }
+      
+      .specialboxse2{width: 27%; height: 201px; 
+        .text23sear { display: flex; height: 23.7%; width: 100%; border-radius: 8px; border: 1px solid #adb5bd;
+                align-items: center; justify-content: center; background-color: #eb8102; position: relative;
+
+          .srcse22 {width: 100%; height: 100%; position: absolute; z-index: 30; opacity: 0;
+              img { width: 100%; height: 100%;}
+          }
+          .textse32 { width: 85%; display: flex; align-items: center; justify-content: space-between; position: absolute; z-index: 29;
+            h2{ color: #f9f9f9;
+              &:last-child {  width: 220px; height: 40px; display: flex; align-items: center; justify-content: center;
+                border-radius: 8px;
+              }
+            }                  
+          }
+          
+        }
+      }
     }  
   }
   
@@ -150,8 +179,8 @@ header{
       }
       
       .spanBtn { position: absolute; 
-        right:  234px; 
-        top:43px; transform: translateY(-50%); 
+        left: calc(50% + 600px);
+        top:42px; transform: translateY(-50%); 
         display: block  ;
         .line {margin: 6px; 
           display: block; 
@@ -721,8 +750,7 @@ main {
           span{ color: #f9f9f9;}
           &:hover h3::after {  transform:none;}
           
-        }
-        
+        } 
       }
     }
     .section6{   background-color: #141416; position: relative;
