@@ -42,8 +42,6 @@ header
       }
     }  
   }
-  
-  
 }  
 
 
@@ -51,8 +49,7 @@ header
   .box4{display: block; 
 
   }
-  
-  
+   
 }
 header{
   overflow: hidden;
@@ -160,8 +157,7 @@ header{
             margin-left: 23px;  
             border: none;
           }
-        }
-        
+        }   
       }
       .three.on2{ 
         .login { 
@@ -171,11 +167,8 @@ header{
             border: none;
             line-height: 60px;  
             margin-left: 23px;  
-          }
-                 
-          
+          }     
         }
-        
       }
       
       .spanBtn { position: absolute; 
@@ -397,8 +390,7 @@ main {
                   span{color: #fff;font-size: 20px;}
               }
             }
-          } 
-          
+          }    
           
           .smallslider {position: relative;width: 100%; margin: 0 auto; display: flex; justify-content: center;
               
@@ -456,8 +448,7 @@ main {
                     &:last-child{margin-right: 0;}  
                   }
                   &:hover .trbg{ opacity: 1;}  
-                }
-                
+                } 
               }
             }    
             .btns2{ 
@@ -488,10 +479,7 @@ main {
             span { color: #f9f9f9;}
             
             &:hover h3:after{transform:none;
-            }
-                 
-            
-            
+            }          
           }   
         }
         .boxoffice2 { position: relative; 
@@ -648,8 +636,7 @@ main {
                     i{ font-size: 50px;}
                   }
                 }
-              }
-              
+              }    
             }
             .big { height: 208px; }  
             .wide { width: 64.666666%; height: 202px;}  
@@ -670,15 +657,12 @@ main {
             transform:scaleX(0); 
             transform-origin:0 50%;
              
-          }
-          
-          
+          }     
         }
         span{ color: #f9f9f9;}
         &:hover h3::after {  transform:none;} 
         
-      }
-      
+      }     
     }
     .section4{ background-color: #141416;
       .center{ width: 1106px; margin: 0 auto; display: flex; justify-content: space-between;
@@ -719,7 +703,7 @@ main {
             }
             &:hover img {transform: scale(1.1);}
         }
-        
+       
         .specialbox2{width: 49%; height: 310px; 
           .text23 { display: flex; height: 24.7%; width: 100%; border-radius: 8px; border: 1px solid #adb5bd;
                   align-items: center; justify-content: center; background-color: #141416; position: relative;
@@ -747,15 +731,11 @@ main {
               background: #f9f9f9;
               transition:0.3s;
               transform:scaleX(0); 
-              transform-origin:0 50%;
-               
-            }
-            
-          }
-          
+              transform-origin:0 50%;  
+            } 
+          }  
           span{ color: #f9f9f9;}
-          &:hover h3::after {  transform:none;}
-          
+          &:hover h3::after {  transform:none;}     
         } 
       }
     }
@@ -800,8 +780,7 @@ main {
                         }
                         h2{ color: #f9f9f9; margin: 23px auto;}
                         h3{color: #f9f9f9;}
-                      }
-                      
+                      }  
                     }
                   }
                 } 
